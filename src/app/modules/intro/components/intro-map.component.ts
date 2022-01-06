@@ -169,7 +169,8 @@ export class IntroMapComponent implements OnInit,AfterContentInit{
         } 
         this.map.mapTypeControlOptions = mapTypeControlOptions; //styledMapType_Day1 ,introStyledMapType
         //this.map.styles = Styles.introStyledMapType;  
-        this.map.styles = Styles.styledMapType_Day1;  
+             //this.map.styles = Styles.styledMapType_Day1;  
+             this.map.styles = Styles.introStyledMapType2;  
     
 
         this.lat_map = this.lat_map_initial;
