@@ -1,0 +1,138 @@
+
+@import "../c/scss/c.scss";  
+@import "./scss/p-specials.scss"; 
+
+
+
+
+
+/* ************************* CARD ****************************************** */
+//CARD
+.card-a{
+    box-shadow:5px 10px 5px gray;
+    border-left:outset thin #d9e3f7; 
+    border-top:outset thin #d9e3f7;
+}
+.card-header-a{
+    @extend %ph20-c;
+    @extend %bor-bottom-inset-thin-green;
+    overflow-y:auto;
+}
+.card-content-overflow_y-a{
+    @extend %ph20-c;
+    @extend %bor-bottom-inset-thin-green;
+    overflow-y:auto;
+}
+.card-content-overflow_x-a{
+    @extend %ph20-c;
+    @extend %bor-bottom-inset-thin-green;
+    overflow-x: auto;
+}
+.card-content-overflow-a{
+    @extend %ph20-c;
+    @extend %bor-bottom-inset-thin-green;
+    overflow: auto;
+}
+.card-content-no_overflow-a{
+    @extend %ph20-c;
+    @extend %bor-bottom-inset-thin-green;
+}
+.card-footer-a{
+    @extend %bor-top-inset-thin-green;
+}
+
+
+
+
+
+/* ************************* TABLE ****************************************** */
+.table-a { 
+    font-family: sans-serif;
+}
+.table-a td,th {
+    text-align:center;
+} 
+
+.table-fixed-a  tbody {
+    display:block;
+    height: 90%;
+    overflow:auto;
+}
+.table-fixed-a  thead {
+    display:table;
+    width:100%;
+    table-layout:fixed;// even columns width , fix width of table too
+}
+.table-fixed-a  tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;// even columns width , fix width of table too
+}
+.table-fixed-a td {
+    word-wrap: break-word;
+}
+.table-fixed-a  thead {
+    width: calc( 100% - 1em )// scrollbar is average 1em/16px width, remove it from thead width 
+}
+
+
+//YELLOW
+.table-yellow-a {
+    @extend %bg-table-yellow-app;
+} 
+.table-yellow-a thead {
+    @extend %bor-bottom-outset-1px-blue;
+    @extend %bg-table-yellow-thead-app;
+    color:white;
+}
+.table-yellow-stripped-a   tbody   tr:nth-child(odd) {
+    background: white;  
+}
+.table-yellow-stripped-a   tbody   tr:nth-child(even) {
+    background: $table-yellow_maincolor; 
+}
+.table-yellow-a tbody tr:hover {
+    @extend %bg-white-c;    
+} 
+.table-yellow-a td {
+    color: $table-yellow_thead_maincolor;
+}  
+.table-yellow-a td:hover {
+    color: red;
+    filter: brightness(82%);
+}
+
+
+
+
+
+
+
+/* ************************* UL ****************************************** */
+.ul-two_columns-a{
+    @extend %bor-top-ridge-6px-green;
+    box-shadow:5px 10px 5px gray;
+   
+}
+.ul-two_columns-a  li:nth-child(even) {
+    background: #fffff3; 
+}  
+.ul-two_columns-a   li .row  div:first-child {
+    @extend %fs14-md-c;
+    @extend %ta-l-c;
+    color: green;
+    font-family: monospace;
+    font-weight: bold;
+}  
+.ul-two_columns-a li .row  div:last-child {
+    @extend %bor-bottom-dotted-thin-green;
+    @extend %fs13-md-c;
+    @extend %ta-c-c;
+    font-family: sans-serif;
+    color: #858520;
+}
+.ul-two_columns-a  li .row  div:last-child:hover {
+    color: red;
+}
+
+

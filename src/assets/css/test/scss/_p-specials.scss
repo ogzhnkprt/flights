@@ -1,0 +1,88 @@
+@import "../../c/scss/c-mixin.scss";
+
+$table-yellow_maincolor : #fffff3;
+$table-yellow_centercolor : #ffffb3;
+$table-yellow_outcolor : #fffff3 ;  
+
+$table-yellow_thead_maincolor : #858520;
+$table-yellow_thead_topcolor : #60600E ;  
+$table-yellow_thead_bottomcolor : black; 
+
+
+
+
+
+%bg-table-yellow-app { 
+    @include  mixin-bg-radial($table-yellow_maincolor, $table-yellow_centercolor, $table-yellow_outcolor); 
+}  
+%bg-table-yellow-stripped-app{
+    @include  mixin-bg-radial($table-yellow_maincolor, $table-yellow_outcolor, $table-yellow_centercolor);
+}
+%bg-table-yellow-thead-app {
+    @include  mixin-bg-linear-toDown($table-yellow_thead_maincolor, $table-yellow_thead_topcolor, $table-yellow_thead_bottomcolor);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*%bg-primary-app { 
+    background: $btn_primary_color;     
+    background: -webkit-linear-gradient(left, $btn_primary_shadow_color , $btn_primary_color);
+    background: -o-linear-gradient(right, $btn_primary_shadow_color, $btn_primary_color); 
+    background: -moz-linear-gradient(right, $btn_primary_shadow_color, $btn_primary_color);
+    background: linear-gradient(to right, $btn_primary_shadow_color , $btn_primary_color);
+}
+%bg-primary-app-hover { 
+    background: #4d94ff;     
+    background: -webkit-linear-gradient(left, $btn_primary_color , $btn_primary_shadow_color);
+    background: -o-linear-gradient(right, $btn_primary_color, $btn_primary_shadow_color); 
+    background: -moz-linear-gradient(right, $btn_primary_color, $btn_primary_shadow_color);
+    background: linear-gradient(to right, $btn_primary_color , $btn_primary_shadow_color);
+}
+%bg-success-app { 
+    background: $btn_success_color;     
+    background: -webkit-linear-gradient(left, $btn_success_shadow_color , $btn_success_color);
+    background: -o-linear-gradient(right, $btn_success_shadow_color, $btn_success_color); 
+    background: -moz-linear-gradient(right, $btn_success_shadow_color, $btn_success_color);
+    background: linear-gradient(to right, $btn_success_shadow_color , $btn_success_color);
+}
+%bg-success-app-hover { 
+    background: $btn_success_color;     
+    background: -webkit-linear-gradient(left, $btn_success_color , $btn_success_shadow_color);
+    background: -o-linear-gradient(right, $btn_success_color, $btn_success_shadow_color); 
+    background: -moz-linear-gradient(right, $btn_success_color, $btn_success_shadow_color);
+    background: linear-gradient(to right, $btn_success_color , $btn_success_shadow_color);
+}
+*/

@@ -1,0 +1,202 @@
+/*[class*="btn-wh"]:hover {background-color:red}*/
+
+
+
+/* COLOR - TEXT COLOR */
+
+.white-m {color: white}
+.white-text-m {text-color:white}
+.blue-m {color: blue}
+.blue-text-m {text-color:blue}
+.orange -m {color:orange}
+.orange-text-m {text-color:orange}
+.red-m {color: red}
+.red-text-m {text-color:red}
+.green-m {color: green}
+.green-text-m {text-color:green}
+.black-m {color: black}
+.black-text-m {text-color:black}
+.yellow-m {color: yellow}
+.yellow-text-m {text-color: yellow}
+.pink-m {color: pink}
+.pink-text-m {text-color:pink}
+.gray-m {color: gray}
+.gray-text-m {text-color:gray}
+
+
+
+
+/* BACKGROUND COLOR*/
+/*
+    background: blue; 
+    background: -webkit-linear-gradient(#ff6666, #4d0000); 
+    background: -o-linear-gradient(#ff6666, #4d0000); 
+    background: -moz-linear-gradient(#ff6666, #4d0000); 
+    background: linear-gradient(#ff6666, #4d0000);
+*/
+
+/*
+    background: red; 
+    background: -webkit-linear-gradient(left, red , yellow);
+    background: -o-linear-gradient(right, red, yellow); 
+    background: -moz-linear-gradient(right, red, yellow);
+    background: linear-gradient(to right, red , yellow); 
+*/ 
+
+/*
+    background: red; 
+    background: -webkit-radial-gradient(red, yellow, green);
+    background: -o-radial-gradient(red, yellow, green); 
+    background: -moz-radial-gradient(red, yellow, green); 
+    background: radial-gradient(red, yellow, green); 
+*/
+
+/*
+    background: -webkit-radial-gradient(60% 55%, farthest-side, red, yellow, black);
+    background: -o-radial-gradient(60% 55%, farthest-side, red, yellow, black);
+    background: -moz-radial-gradient(60% 55%, farthest-side, red, yellow, black);
+    background: radial-gradient(farthest-side at 60% 55%, red, yellow, black);
+*/  
+
+.bg-card-content-m{ 
+    background: blue; 
+    background: -webkit-linear-gradient(#e0ffff,#d9f9f9,#c4f2f2,#8cdbdb); 
+    background: -o-linear-gradient(#e0ffff,#d9f9f9,#c4f2f2,#8cdbdb); 
+    background: -moz-linear-gradient(#e0ffff,#d9f9f9,#c4f2f2,#8cdbdb); 
+    background:  radial-gradient(#e0ffff,#d9f9f9,#c4f2f2,#8cdbdb);
+}
+
+
+.bg-white-m { 
+    background: white; 
+} 
+.bg-whitesmoke-m { 
+    background: whitesmoke; 
+}  
+.bg-gray-m { 
+    background: gray; 
+}    
+
+
+
+
+.bg-wb-m { 
+    background: blue;     
+    background: -webkit-linear-gradient(left, white , blue);
+    background: -o-linear-gradient(right, white, blue); 
+    background: -moz-linear-gradient(right, white, blue);
+    background: linear-gradient(to right, white , blue);
+}
+.bg-wr-m { 
+    background: red;     
+    background: -webkit-linear-gradient(left, white , red);
+    background: -o-linear-gradient(right, white, red); 
+    background: -moz-linear-gradient(right, white, red);
+    background: linear-gradient(to right, white , red);
+}
+.bg-wy-m { 
+    background: yellow;     
+    background: -webkit-linear-gradient(left, white , yellow);
+    background: -o-linear-gradient(right, white, yellow); 
+    background: -moz-linear-gradient(right, white, yellow);
+    background: linear-gradient(to right, white , yellow);
+}
+.bg-wy-rad-m { 
+    background: yellow; 
+    background: -webkit-radial-gradient(white,#f2f2f2,#e6e6e6,#d9d9d9,#cccccc);
+    background: -o-radial-gradient(white,#f2f2f2,#e6e6e6,#d9d9d9,#cccccc); 
+    background: -moz-radial-gradient(white,#f2f2f2,#e6e6e6,#d9d9d9,#cccccc); 
+    background: radial-gradient(white,#f2f2f2,#e6e6e6,#d9d9d9,#cccccc); 
+}
+.bg-wg-m { 
+    background: green; 
+    background: -webkit-linear-gradient(left, white , green);
+    background: -o-linear-gradient(right, white, green); 
+    background: -moz-linear-gradient(right, white, green);
+    background: linear-gradient(to right, white , green);
+}
+
+
+
+
+.bg-blg-m { 
+    background: green;     
+    background: -webkit-linear-gradient(left, black , green);
+    background: -o-linear-gradient(right, black, green); 
+    background: -moz-linear-gradient(right, black, green);
+    background: linear-gradient(to right, black , green);
+}
+.bg-blr-m { 
+    background: red;     
+    background: -webkit-linear-gradient(left, black , red);
+    background: -o-linear-gradient(right, black, red); 
+    background: -moz-linear-gradient(right, black, red);
+    background: linear-gradient(to right, black , red);
+}
+.bg-blo-m { 
+    background: orange;     
+    background: -webkit-linear-gradient(left, black , orange);
+    background: -o-linear-gradient(right, black, orange); 
+    background: -moz-linear-gradient(right, black, orange);
+    background: linear-gradient(to right, black , orange);
+}
+.bg-blb-down-m { 
+    background: black;     
+    background: -webkit-linear-gradient(black , blue);
+    background: -o-linear-gradient( black, blue); 
+    background: -moz-linear-gradient( black, blue);
+    background: linear-gradient(black , blue);
+}
+/*.bg-blbl-m { 
+    background: linear-gradient(to right,#41dcf4,#4156f4);
+}
+.bg-blb1-m {
+    background: linear-gradient(to right,black, #233659);
+}
+.bg-b1b-m { 
+    background: linear-gradient(to right,#233659, black);
+}*/
+
+
+.bg-gbl-m { 
+    background: black;     
+    background: -webkit-linear-gradient(left, green , black);
+    background: -o-linear-gradient(right, green, black); 
+    background: -moz-linear-gradient(right, green, black);
+    background: linear-gradient(to right, green , black);
+}
+
+
+.bg-rb-m { 
+    background: black;     
+    background: -webkit-linear-gradient(left, red , blue);
+    background: -o-linear-gradient(right, red, blue); 
+    background: -moz-linear-gradient(right, red, blue);
+    background: linear-gradient(to right, red , blue);
+}
+
+
+
+
+
+.bg-bbl-down-m { 
+    background: black;     
+    background: -webkit-linear-gradient(blue , black);
+    background: -o-linear-gradient( blue, black); 
+    background: -moz-linear-gradient( blue, black);
+    background: linear-gradient(blue , black);
+}
+
+
+
+
+
+
+
+.bg-yb-m { 
+    background: yellow;     
+    background: -webkit-linear-gradient(left, yellow , blue);
+    background: -o-linear-gradient(right, yellow, blue); 
+    background: -moz-linear-gradient(right, yellow, blue);
+    background: linear-gradient(to right, yellow , blue);
+}

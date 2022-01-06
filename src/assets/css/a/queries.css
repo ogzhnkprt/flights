@@ -1,0 +1,106 @@
+/* ***** MAP PANO ***** */
+#map_location_pano i, #map_flying_pano , #map_info_pano i {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px){
+    #div_map_abs_pano_region {width: 6%;left: 94%;}
+}  
+@media only screen and (min-width: 0px) and (max-width: 768px){
+    #div_map_abs_pano_region {width: 10%;left: 90%;}
+}    
+ 
+
+
+
+/* ***** SEARCH ***** */
+search td,i {
+    cursor: pointer;
+}
+@media only screen and (min-width: 1800px){
+    #div_map_abs_searcharea_region {left: 60%}
+    search .mark-i-1-m , search .mark-i-2-m  {font-size:24px;}  
+}    
+@media only screen and (min-width: 1440px) and (max-width: 1800px) {
+    #div_map_abs_searcharea_region {left: 58%}
+    search .mark-i-1-m , search .mark-i-2-m  {font-size:22.1px;}  
+}
+@media only screen and (min-width: 1280px) and (max-width: 1440px){
+    #div_map_abs_searcharea_region {left: 54%}
+    search .mark-i-1-m , search .mark-i-2-m  {font-size:21.2px;}  
+}    
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+    #div_map_abs_searcharea_region {left: 46%}
+    search .mark-i-1-m , search .mark-i-2-m  {font-size:19.9px;}  
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    #div_map_abs_searcharea_region {left: 38%}
+    search .mark-i-1-m , search .mark-i-2-m  {font-size:18.5px;}  
+}    
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    #div_map_abs_searcharea_region {left: 30%}
+    search .mark-i-1-m , search .mark-i-2-m  {font-size:17.0px;}  
+}    
+@media only screen and (min-width: 200px) and (max-width: 480px){
+    #div_map_abs_searcharea_region {left: 22%}
+    search .mark-i-1-m , search .mark-i-2-m  {font-size:15.5px;}  
+}    
+
+
+
+/* ***** PASSENGERS , PASSENGER ***** */
+@media only screen and (min-width: 1800px){
+    /*#div_passenger_info table, #div_passenger_dosya table {width:500px}*/
+    #div_passengers .mark-span-m , #div_passenger_info .mark-span2-m , #div_passenger_dosya .mark-span-3-m {font-size:36px;}  
+    #div_passenger .mark-span-m , #div_passenger_info .mark-span1-m ,  #div_passenger_dosya .mark-span-m , #div_passenger_dosya .mark-span-2-m {font-size:24px;}  
+    #div_passenger_dosya .mark-span-1-m {font-size:12px;}  
+}    
+@media only screen and (min-width: 1440px) and (max-width: 1800px) {
+    /*#div_passenger_info table, #div_passenger_dosya table {width:460.0px}*/
+    #div_passengers .mark-span-m , #div_passenger_info .mark-span2-m , #div_passenger_dosya .mark-span-3-m {font-size:33.1px;}  
+    #div_passenger .mark-span-m , #div_passenger_info .mark-span1-m ,  #div_passenger_dosya .mark-span-m  , #div_passenger_dosya .mark-span-2-m {font-size:22.1px;}  
+    #div_passenger_dosya .mark-span-1-m {font-size:11.0px;}     
+}
+@media only screen and (min-width: 1280px) and (max-width: 1440px){
+    /*#div_passenger_info table, #div_passenger_dosya table {width:442.2px}*/
+    #div_passengers .mark-span-m , #div_passenger_info .mark-span2-m , #div_passenger_dosya .mark-span-3-m {font-size:31.8px;}  
+    #div_passenger .mark-span-m , #div_passenger_info .mark-span1-m ,  #div_passenger_dosya .mark-span-m  , #div_passenger_dosya .mark-span-2-m {font-size:21.2px;}      
+    #div_passenger_dosya .mark-span-1-m {font-size:10.6px;}     
+}    
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+    /*#div_passenger_info table, #div_passenger_dosya table {width:413.8px}*/
+    #div_passengers .mark-span-m , #div_passenger_info .mark-span2-m , #div_passenger_dosya .mark-span-3-m {font-size:29.8px;}  
+    #div_passenger .mark-span-m , #div_passenger_info .mark-span1-m ,  #div_passenger_dosya .mark-span-m  , #div_passenger_dosya .mark-span-2-m {font-size:19.9px;}      
+    #div_passenger_dosya .mark-span-1-m {font-size:9.9px;}     
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    /*#div_passenger_info table, #div_passenger_dosya table {width:385.3px}*/
+    #div_passengers .mark-span-m , #div_passenger_info .mark-span2-m , #div_passenger_dosya .mark-span-3-m {font-size:27.7px;}  
+    #div_passenger .mark-span-m , #div_passenger_info .mark-span1-m ,  #div_passenger_dosya .mark-span-m  , #div_passenger_dosya .mark-span-2-m {font-size:18.5px;}      
+    #div_passenger_dosya .mark-span-1-m {font-size:9.2px;}     
+}    
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    /*#div_passenger_info table, #div_passenger_dosya table {width:353.3px}*/
+    #div_passengers .mark-span-m , #div_passenger_info .mark-span2-m , #div_passenger_dosya .mark-span-3-m {font-size:25.4px;}  
+    #div_passenger .mark-span-m , #div_passenger_info .mark-span1-m ,  #div_passenger_dosya .mark-span-m  , #div_passenger_dosya .mark-span-2-m {font-size:17.0px;}      
+    #div_passenger_dosya .mark-span-1-m {font-size:8.5px;}     
+}    
+@media only screen and (min-width: 200px) and (max-width: 480px){
+    /*#div_passenger_info table, #div_passenger_dosya table {width:322.2px}*/
+    #div_passengers .mark-span-m , #div_passenger_info .mark-span2-m , #div_passenger_dosya .mark-span-3-m{font-size:23.2px;}  
+    #div_passenger .mark-span-m , #div_passenger_info .mark-span1-m ,  #div_passenger_dosya .mark-span-m  , #div_passenger_dosya .mark-span-2-m {font-size:15.5px;}      
+    #div_passenger_dosya .mark-span-1-m {font-size:7.7px;}     
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
