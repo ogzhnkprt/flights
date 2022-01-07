@@ -1,1 +1,1 @@
-This app is running good!
+This app is running bad!
