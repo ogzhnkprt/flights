@@ -1,0 +1,34 @@
+<div id="intromap" class="hY100-m" style="opacity: 12.6" > 
+         
+        <agm-map    [latitude]="lat_map"
+                    [longitude]="lng_map"
+                    [zoom]="zoom_map"
+                    [disableDefaultUI]="true"
+                    [zoomControl]="true"
+                    [scrollwheel]="true" 
+                    [draggable]="false" >
+
+            <agm-marker *ngFor="let f of flights"
+                                    [iconUrl]="f.markericon"
+                                    [latitude]="f.lat"
+                                    [longitude]="f.lng"
+                                    [markerDraggable]="false">
+            </agm-marker>
+           
+              
+            <agm-marker *ngFor="let c of cflights"
+                                    [iconUrl]="c.markericon"
+                                    [latitude]="c.lat"
+                                    [longitude]="c.lng"
+                                    [markerDraggable]="false">
+            </agm-marker>            
+            
+            
+        </agm-map>   
+</div>
+     
+      
+
+
+
+
