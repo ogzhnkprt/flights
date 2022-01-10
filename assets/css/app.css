@@ -1,5 +1,6 @@
 /* http://css3.bradshawenterprises.com/filters/ */
 
+/*
 @import url('/assets/css/m/m-bootstrap.css');
 @import url('/assets/css/m/m-simple-props.css');
 @import url('/assets/css/m/m-simple-components.css');
@@ -21,32 +22,30 @@
     @import url('/assets/css/test/a.css');
     @import url('/assets/css/test/customization.css');
     @import url('/assets/css/test/specials.css');        
-
-                           
-                           
-/*                           
-@import url('/hts1.1.8/assets/css/m/m-bootstrap.css');
-@import url('/hts1.1.8/assets/css/m/m-simple-props.css');
-@import url('/hts1.1.8/assets/css/m/m-simple-components.css');
-@import url('/hts1.1.8/assets/css/m/m-components.css');
-@import url('/hts1.1.8/assets/css/m/m-keyframes.css');
-@import url('/hts1.1.8/assets/css/m/m-custom.css');
-@import url('/hts1.1.8/assets/css/m/m-colors.css');
-@import url('/hts1.1.8/assets/css/m/m-sizing.css');
-    @import url('/hts1.1.8/assets/css/a/classes.css');
-    @import url('/hts1.1.8/assets/css/a/queries.css');
-    @import url('/hts1.1.8/assets/css/c/c-classes.css');
-    @import url('/hts1.1.8/assets/css/c/c-colors.css');
-    @import url('/hts1.1.8/assets/css/c/c-background.css');
-    @import url('/hts1.1.8/assets/css/c/c-border.css');
-    @import url('/hts1.1.8/assets/css/c/c-sizing-height.css');
-    @import url('/hts1.1.8/assets/css/c/c-sizing-height-ek.css');
-    @import url('/hts1.1.8/assets/css/c/c-sizing-width.css');
-    @import url('/hts1.1.8/assets/css/c/c-sizing-width-ek.css');
-    @import url('/hts1.1.8/assets/css/test/a.css');
-    @import url('/hts1.1.8/assets/css/test/customization.css');
-    @import url('/hts1.1.8/assets/css/test/specials.css');  
 */
+                           
+                           
+@import url('/flights/assets/css/m/m-bootstrap.css');
+@import url('/flights/assets/css/m/m-simple-props.css');
+@import url('/flights/assets/css/m/m-simple-components.css');
+@import url('/flights/assets/css/m/m-components.css');
+@import url('/flights/assets/css/m/m-keyframes.css');
+@import url('/flights/assets/css/m/m-custom.css');
+@import url('/flights/assets/css/m/m-colors.css');
+@import url('/flights/assets/css/m/m-sizing.css');
+    @import url('/flights/assets/css/a/classes.css');
+    @import url('/flights/assets/css/a/queries.css');
+    @import url('/flights/assets/css/c/c-classes.css');
+    @import url('/flights/assets/css/c/c-colors.css');
+    @import url('/flights/assets/css/c/c-background.css');
+    @import url('/flights/assets/css/c/c-border.css');
+    @import url('/flights/assets/css/c/c-sizing-height.css');
+    @import url('/flights/assets/css/c/c-sizing-height-ek.css');
+    @import url('/flights/assets/css/c/c-sizing-width.css');
+    @import url('/flights/assets/css/c/c-sizing-width-ek.css');
+    @import url('/flights/assets/css/test/a.css');
+    @import url('/flights/assets/css/test/customization.css');
+    @import url('/flights/assets/css/test/specials.css'); 
 
 
 *{
