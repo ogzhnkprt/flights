@@ -15,7 +15,7 @@ import {SharedModule } from '../shared/shared.module';
 @NgModule({
         imports: [CommonModule,FormsModule,HttpClientModule,IntroRoutingModule,  SharedModule,
                         AgmCoreModule.forRoot({
-                                apiKey: 'AIzaSyCzsO8vrOW2ZzRzDDg81xEYRuxENkE10fA'
+                                apiKey: '.....'
                         }),         
                 ],
         declarations: [IntroMainComponent,IntroMapComponent],
