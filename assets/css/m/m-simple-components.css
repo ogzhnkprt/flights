@@ -1,0 +1,93 @@
+
+/*[class*="btn-wh"]:hover {background-color:red}*/
+
+
+
+/* *** CELLS *** */
+.cells-m{
+    display: table;
+    width: 100%;
+}
+
+.cell-m{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}  /*margin almıyor */
+.cell-m:hover {
+    filter: brightness(92%);
+}
+.cell-vat-m{
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+}  /*margin almıyor */
+
+.cell-vm-tl-m{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}  /*margin almıyor */
+.cell-vm-tl-m:hover {
+    filter: brightness(92%);
+}
+
+
+
+
+
+
+/* *** CARD *** */
+.card-m{
+    height: 100%;
+    float:left;
+    clear:both;
+    box-shadow:5px 10px 5px gray;
+    border-left:outset thin #d9e3f7; /* #f9fafc */
+    border-top:outset thin #d9e3f7;
+}
+.rawcard-m{
+    height: 100%;
+    float:left;
+    clear:both;
+}
+.card-footer-m:hover {
+    filter: brightness(92%);
+}
+.card-header-m{
+    border-bottom: inset thin green;    
+}
+.card-content-m{
+    padding: 5px;
+    border-bottom: inset thin green;
+    overflow-y:auto;
+}
+.card-footer-m{
+    padding: 5px;
+    border-top: inset medium green;
+}
+
+
+/* *** LOADER *** */
+div.loader {
+  border: 2px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 2px solid #3498db;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+
+
+
+
+/* *** BOX *** */
+.box-m{
+    /*padding: 5px;*/
+    overflow-y:auto;
+}
+
+
+

@@ -1,0 +1,377 @@
+/* SIMPLE BG  */
+.table-yellow-a tbody tr:hover {
+  background: white; }
+
+/*  LINEAR GRADIENT  TO RIGHT*/
+/*white , black , blue , red , green , yellow , gray , orange , pink , brown , purple */
+/* *************** END OF LINEAR GRADIENT RIGHT ********************************* */
+/*  LINEAR GRADIENT  TO DOWN*/
+/*white , black , blue , red , green , yellow , gray , orange , pink , brown , purple */
+/* *************** END OF LINEAR GRADIENT DOWN ********************************* */
+/*  RADIAL GRADIENT*/
+/*white , black , blue , red , green , yellow , gray , orange , pink , brown , purple */
+/* *************** END OF RADIAL GRADIENT ********************************* */
+/*   
+    white , black , blue , red , green , yellow , gray , orange , pink , brown , purple 
+
+    left right top bottom  
+    
+    dotted  dashed  solid  double  groove  ridge  inset  outset  none  hidden 
+    
+    thin medium thick 1px 2px 3px 4px 4px 6px 7px 8px 9px 10px 12px 14px 16px 18px 20px 24px 28px 32px 36px    
+
+    %bor-TYPE-WIDTH-white  { border: TYPE WIDTH white  }
+    %bor-TYPE-WIDTH-black  { border: TYPE WIDTH black  }
+    %bor-TYPE-WIDTH-blue   { border: TYPE WIDTH blue  }
+    %bor-TYPE-WIDTH-red    { border: TYPE WIDTH red  }
+    %bor-TYPE-WIDTH-green  { border: TYPE WIDTH green  }
+    %bor-TYPE-WIDTH-yellow { border: TYPE WIDTH yellow  }
+    %bor-TYPE-WIDTH-gray   { border: TYPE WIDTH gray  }
+    %bor-TYPE-WIDTH-orange { border: TYPE WIDTH orange  }
+    %bor-TYPE-WIDTH-pink   { border: TYPE WIDTH pink  }
+    %bor-TYPE-WIDTH-brown  { border: TYPE WIDTH brown  }
+    %bor-TYPE-WIDTH-purple { border: TYPE WIDTH purple  }
+*/
+/* *************** END OF  ********************************* */
+/* DOTTED  */
+/* DASHED  */
+/* SOLID  */
+/* DOUBLE  */
+/* GROOVE  */
+/* RIDGE  */
+/* INSET  */
+/* OUTSET  */
+/* LEFT DOTTED  */
+/* LEFT DASHED  */
+/* LEFT SOLID  */
+/* LEFT DOUBLE  */
+/* LEFT GROOVE  */
+/* LEFT RIDGE  */
+/* LEFT INSET  */
+/* LEFT OUTSET  */
+/* RIGHT DOTTED  */
+/* RIGHT DASHED  */
+/* RIGHT SOLID  */
+/* RIGHT DOUBLE  */
+/* RIGHT GROOVE  */
+/* RIGHT RIDGE  */
+/* RIGHT INSET  */
+/* RIGHT OUTSET  */
+/* TOP DOTTED  */
+/* TOP DASHED  */
+/* TOP SOLID  */
+/* TOP DOUBLE  */
+/* TOP GROOVE  */
+/* TOP RIDGE  */
+.ul-two_columns-a {
+  border-top: ridge 6px green; }
+
+/* TOP INSET  */
+.card-footer-a {
+  border-top: inset thin green; }
+
+/* TOP OUTSET  */
+/* BOTTOM DOTTED  */
+.ul-two_columns-a li .row div:last-child {
+  border-bottom: dotted thin green; }
+
+/* BOTTOM DASHED  */
+/* BOTTOM SOLID  */
+/* BOTTOM DOUBLE  */
+/* BOTTOM GROOVE  */
+/* BOTTOM RIDGE  */
+/* BOTTOM INSET  */
+.card-header-a, .card-content-overflow_y-a, .card-content-overflow_x-a, .card-content-overflow-a, .card-content-no_overflow-a {
+  border-bottom: inset thin green; }
+
+/* BOTTOM OUTSET  */
+.table-yellow-a thead {
+  border-bottom: outset 1px blue; }
+
+/* ALIGNMENT */
+.ul-two_columns-a li .row div:first-child {
+  text-align: left; }
+
+.ul-two_columns-a li .row div:last-child {
+  text-align: center; }
+
+/* CURSOR */
+/* DISPLAY */
+/* FLEX */
+/*[class*="btn-wh"]:hover {background-color:red}*/
+/* COLOR  */
+/* TEXT COLOR */
+/*@mixin box-shadow($args...) {
+  -webkit-box-shadow: $args;
+  -moz-box-shadow: $args;
+  box-shadow: $args;
+}*/
+/*@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+  @if $inset != "" {
+    -webkit-box-shadow:$top $left $blur $color $inset;
+    -moz-box-shadow:$top $left $blur $color $inset;
+    box-shadow:$top $left $blur $color $inset;
+  }
+}*/
+/*@mixin box-shadow($top, $left, $blur, $color, $inset:null) {
+  -webkit-box-shadow: $top $left $blur $color $inset;
+  -moz-box-shadow:    $top $left $blur $color $inset;
+  box-shadow:         $top $left $blur $color $inset;
+}*/
+/*@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+  -webkit-box-shadow: $top $left $blur $color unquote($inset);
+  -moz-box-shadow: $top $left $blur $color unquote($inset);
+  box-shadow: $top $left $blur $color unquote($inset);
+}*/
+/*@mixin button( $bgcolor:blue ){
+    background:$bgcolor;
+}*/
+/*  SIZING HEIGHT IN PERCENTAGE  */
+/* SIZING IN PX FOR HEIGHT */
+/* SIZING IN PX FOR AUTO HEIGHT CHANGES*/
+@media only screen and (min-height: 1000px) {
+  m1-sm-c {
+    margin: 1.0px; }
+
+  m1-sm-c {
+    padding: 1.0px; } }
+@media only screen and (min-height: 800px) and (max-height: 1000px) {
+  m1-sm-c {
+    margin: 0.9px; }
+
+  m1-sm-c {
+    padding: 0.9px; } }
+@media only screen and (min-height: 600px) and (max-height: 800px) {
+  m1-sm-c {
+    margin: 0.8px; }
+
+  m1-sm-c {
+    padding: 0.8px; } }
+@media only screen and (min-height: 400px) and (max-height: 600px) {
+  m1-sm-c {
+    margin: 0.8px; }
+
+  m1-sm-c {
+    padding: 0.8px; } }
+@media only screen and (min-height: 0px) and (max-height: 400px) {
+  m1-sm-c {
+    margin: 0.7px; }
+
+  m1-sm-c {
+    padding: 0.7px; } }
+/*  SIZING HEIGHT IN PERCENTAGE  */
+/* SIZING IN PX FOR HEIGHT EK */
+/* SIZING IN PX FOR AUTO HEIGHT CHANGES*/
+/* **************************************************** END OF SIZING IN AUTO ******************************************************************************************* */
+/*  SIZING ALL OR WIDTH IN PERCENTAGE  */
+/* SIZING IN PX FOR WIDTH  */
+/* SIZING IN PX FOR WIDTH CHANGES (LG  change of width downto 992px,then only one change immediately after 992px)*/
+/* **************************************************** END OF SIZING IN LG ******************************************************************************************* */
+/* SIZING IN PX FOR WIDTH CHANGES (MD change of width downto 768px,then only one change immediately after 768px)*/
+/* **************************************************** END OF SIZING IN MD ******************************************************************************************* */
+/* SIZING IN PX FOR WIDTH CHANGES (SM change of width downto 576px,then only one change immediately after 576px)*/
+/* **************************************************** END OF SIZING IN SM ******************************************************************************************* */
+/*  SIZING ALL OR WIDTH IN PERCENTAGE  */
+/* SIZING IN PX FOR WIDTH EK */
+.card-header-a, .card-content-overflow_y-a, .card-content-overflow_x-a, .card-content-overflow-a, .card-content-no_overflow-a {
+  padding-left: 20px;
+  padding-right: 20px; }
+
+/* SIZING IN PX FOR WIDTH CHANGES (LG  change of width downto 992px,then only one change immediately after 992px)*/
+/* **************************************************** END OF SIZING IN LG ******************************************************************************************* */
+/* SIZING IN PX FOR WIDTH CHANGES (MD change of width downto 768px,then only one change immediately after 768px)*/
+@media only screen and (min-width: 1800px) {
+  .ul-two_columns-a li .row div:last-child {
+    font-size: 13.0px; }
+
+  .ul-two_columns-a li .row div:first-child {
+    font-size: 14.0px; } }
+@media only screen and (min-width: 1600px) and (max-width: 1800px) {
+  .ul-two_columns-a li .row div:last-child {
+    font-size: 12.4px; }
+
+  .ul-two_columns-a li .row div:first-child {
+    font-size: 13.4px; } }
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .ul-two_columns-a li .row div:last-child {
+    font-size: 11.8px; }
+
+  .ul-two_columns-a li .row div:first-child {
+    font-size: 12.8px; } }
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .ul-two_columns-a li .row div:last-child {
+    font-size: 11.3px; }
+
+  .ul-two_columns-a li .row div:first-child {
+    font-size: 12.1px; } }
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .ul-two_columns-a li .row div:last-child {
+    font-size: 10.7px; }
+
+  .ul-two_columns-a li .row div:first-child {
+    font-size: 11.5px; } }
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .ul-two_columns-a li .row div:last-child {
+    font-size: 10.0px; }
+
+  .ul-two_columns-a li .row div:first-child {
+    font-size: 10.8px; } }
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .ul-two_columns-a li .row div:last-child {
+    font-size: 9.5px; }
+
+  .ul-two_columns-a li .row div:first-child {
+    font-size: 10.2px; } }
+/* **************************************************** END OF SIZING IN MD ******************************************************************************************* */
+/* SIZING IN PX FOR WIDTH CHANGES (SM change of width downto 576px,then only one change immediately after 576px)*/
+/* **************************************************** END OF SIZING IN SM ******************************************************************************************* */
+/*@mixin box-shadow($args...) {
+  -webkit-box-shadow: $args;
+  -moz-box-shadow: $args;
+  box-shadow: $args;
+}*/
+/*@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+  @if $inset != "" {
+    -webkit-box-shadow:$top $left $blur $color $inset;
+    -moz-box-shadow:$top $left $blur $color $inset;
+    box-shadow:$top $left $blur $color $inset;
+  }
+}*/
+/*@mixin box-shadow($top, $left, $blur, $color, $inset:null) {
+  -webkit-box-shadow: $top $left $blur $color $inset;
+  -moz-box-shadow:    $top $left $blur $color $inset;
+  box-shadow:         $top $left $blur $color $inset;
+}*/
+/*@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+  -webkit-box-shadow: $top $left $blur $color unquote($inset);
+  -moz-box-shadow: $top $left $blur $color unquote($inset);
+  box-shadow: $top $left $blur $color unquote($inset);
+}*/
+/*@mixin button( $bgcolor:blue ){
+    background:$bgcolor;
+}*/
+.table-yellow-a {
+  background: #fffff3;
+  background: -webkit-radial-gradient(#ffffb3, #fffff3);
+  background: -o-radial-gradient(#ffffb3, #fffff3);
+  background: -moz-radial-gradient(#ffffb3, #fffff3);
+  background: radial-gradient(#ffffb3, #fffff3); }
+
+.table-yellow-a thead {
+  background: #858520;
+  background: -webkit-linear-gradient(#60600E, black);
+  background: -o-linear-gradient(#60600E, black);
+  background: -moz-linear-gradient(#60600E, black);
+  background: linear-gradient(#60600E, black); }
+
+/*%bg-primary-app { 
+    background: $btn_primary_color;     
+    background: -webkit-linear-gradient(left, $btn_primary_shadow_color , $btn_primary_color);
+    background: -o-linear-gradient(right, $btn_primary_shadow_color, $btn_primary_color); 
+    background: -moz-linear-gradient(right, $btn_primary_shadow_color, $btn_primary_color);
+    background: linear-gradient(to right, $btn_primary_shadow_color , $btn_primary_color);
+}
+%bg-primary-app-hover { 
+    background: #4d94ff;     
+    background: -webkit-linear-gradient(left, $btn_primary_color , $btn_primary_shadow_color);
+    background: -o-linear-gradient(right, $btn_primary_color, $btn_primary_shadow_color); 
+    background: -moz-linear-gradient(right, $btn_primary_color, $btn_primary_shadow_color);
+    background: linear-gradient(to right, $btn_primary_color , $btn_primary_shadow_color);
+}
+%bg-success-app { 
+    background: $btn_success_color;     
+    background: -webkit-linear-gradient(left, $btn_success_shadow_color , $btn_success_color);
+    background: -o-linear-gradient(right, $btn_success_shadow_color, $btn_success_color); 
+    background: -moz-linear-gradient(right, $btn_success_shadow_color, $btn_success_color);
+    background: linear-gradient(to right, $btn_success_shadow_color , $btn_success_color);
+}
+%bg-success-app-hover { 
+    background: $btn_success_color;     
+    background: -webkit-linear-gradient(left, $btn_success_color , $btn_success_shadow_color);
+    background: -o-linear-gradient(right, $btn_success_color, $btn_success_shadow_color); 
+    background: -moz-linear-gradient(right, $btn_success_color, $btn_success_shadow_color);
+    background: linear-gradient(to right, $btn_success_color , $btn_success_shadow_color);
+}
+*/
+/* ************************* CARD ****************************************** */
+.card-a {
+  box-shadow: 5px 10px 5px gray;
+  border-left: outset thin #d9e3f7;
+  border-top: outset thin #d9e3f7; }
+
+.card-header-a {
+  overflow-y: auto; }
+
+.card-content-overflow_y-a {
+  overflow-y: auto; }
+
+.card-content-overflow_x-a {
+  overflow-x: auto; }
+
+.card-content-overflow-a {
+  overflow: auto; }
+
+/* ************************* TABLE ****************************************** */
+.table-a {
+  font-family: sans-serif; }
+
+.table-a td, th {
+  text-align: center; }
+
+.table-fixed-a tbody {
+  display: block;
+  height: 90%;
+  overflow: auto; }
+
+.table-fixed-a thead {
+  display: table;
+  width: 100%;
+  table-layout: fixed; }
+
+.table-fixed-a tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed; }
+
+.table-fixed-a td {
+  word-wrap: break-word; }
+
+.table-fixed-a thead {
+  width: calc( 100% - 1em ); }
+
+.table-yellow-a thead {
+  color: white; }
+
+.table-yellow-stripped-a tbody tr:nth-child(odd) {
+  background: white; }
+
+.table-yellow-stripped-a tbody tr:nth-child(even) {
+  background: #fffff3; }
+
+.table-yellow-a td {
+  color: #858520; }
+
+.table-yellow-a td:hover {
+  color: red;
+  filter: brightness(82%); }
+
+/* ************************* UL ****************************************** */
+.ul-two_columns-a {
+  box-shadow: 5px 10px 5px gray; }
+
+.ul-two_columns-a li:nth-child(even) {
+  background: #fffff3; }
+
+.ul-two_columns-a li .row div:first-child {
+  color: green;
+  font-family: monospace;
+  font-weight: bold; }
+
+.ul-two_columns-a li .row div:last-child {
+  font-family: sans-serif;
+  color: #858520; }
+
+.ul-two_columns-a li .row div:last-child:hover {
+  color: red; }
+
+/*# sourceMappingURL=specials.css.map */

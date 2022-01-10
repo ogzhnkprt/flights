@@ -1,0 +1,115 @@
+@import "../c/scss/c.scss";  
+@import "./scss/p-boot-customization.scss"; 
+
+
+
+
+
+
+/* ***** CSS ***** */
+ul {
+    margin:0; 
+    padding:0;
+}
+
+
+
+/* ***** BOOTSTRAP ***** */
+.row {
+    margin:0px; padding:0px;
+}
+[class*="col-"] {
+    margin:0;
+    padding:0;
+}
+
+
+//list
+.list-group-item {
+    border:none;
+    background-color: transparent;
+    //border-top: 1px solid #ddd;
+    //border-radius: 0;
+    //color: #fff;
+}
+
+
+//button
+.btn {
+    color: $btn_color;
+    font-weight: $btn_font_weight;
+    //@extend %p10-md-c;    
+    //@extend %fs14-md-c;
+    overflow: hidden;
+    text-overflow: ellipsis; //inherit
+    transition:box-shadow 0.5s;
+}    
+.btn:hover {
+    color: $btn_hover_color;
+    box-shadow: 1px 1px blueviolet;
+    text-overflow: inherit;
+    overflow: visible;
+}
+.btn-success {
+    @extend %bg-success-app;
+}
+.btn-success:hover{
+    @extend %bg-success-app-hover;
+}
+.btn-primary {
+    @extend %bg-primary-app;
+}    
+.btn-primary:hover {
+    @extend %bg-primary-app-hover;
+}
+.btn-info {
+    @extend %bg-info-app;
+}    
+.btn-info:hover {
+    @extend %bg-info-app-hover;
+}
+.btn-warning {
+    @extend %bg-warning-app;
+}    
+.btn-warning:hover {
+    @extend %bg-warning-app-hover;
+}
+.btn-danger {
+    @extend %bg-danger-app;
+}    
+.btn-danger:hover {
+    @extend %bg-danger-app-hover;
+}
+.btn-secondary {
+    @extend %bg-secondary-app;
+}    
+.btn-secondary:hover {
+    @extend %bg-secondary-app-hover;
+}
+
+
+
+
+//custom control                 
+.custom-checkbox .custom-control-input~  .custom-control-label::before {
+    border: solid thin #d0d062;
+}                                      
+                                        
+.custom-checkbox .custom-control-input:checked~  .custom-control-label::before {
+    border: none;
+    background-color: #caca4c;
+}
+
+.custom-checkbox .custom-control-input:checked~  .custom-control-label{
+    color: #caca4c;
+}
+
+
+
+
+//tooltip
+.tooltip {} 
+.tooltip-inner {
+    @extend %bg-info-app;
+    @extend %bor-solid-thin-green;
+}

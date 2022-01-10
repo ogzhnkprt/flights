@@ -1,0 +1,167 @@
+@import "../../c/scss/c-mixin.scss"; 
+
+
+
+/*$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$teal:    #20c997 !default;
+
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+  (
+    "blue":       $blue,
+    "indigo":     $indigo,
+    "purple":     $purple,
+    "pink":       $pink,
+    "red":        $red,
+    "orange":     $orange,
+    "yellow":     $yellow,
+    "green":      $green,
+    "teal":       $teal,
+    "cyan":       $cyan,
+    "white":      $white,
+    "gray":       $gray-600,
+    "gray-dark":  $gray-800
+  ),
+  $colors
+);
+
+$primary:       $blue !default;
+$secondary:     $gray-600 !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;*/
+
+
+$btn_color : white;
+$btn_font_weight : bolder;
+$btn_hover_color : black; 
+
+$btn_primary_color : #007bff;        //#007bff  = rgba(0, 123, 255, 1)             
+$btn_primary_bold_color : #004a99;   //#004a99  = rgba(0, 74, 153, 1)              
+$btn_success_color : #28a745;        //#28a745                                     
+$btn_success_bold_color : #19672b;   //#19672b                                     
+$btn_info_color : #17a2b8;           //#17a2b8
+$btn_info_bold_color : #0e6471;      //#0e6471
+$btn_warning_color : #ffc107;        //#ffc107
+$btn_warning_bold_color : #b38600;   //#b38600
+$btn_danger_color : #dc3545;         //#dc3545  = rgba(220, 53, 69, 1)
+$btn_danger_bold_color : #981b27;    //#981b27  = rgba(152, 27, 39, 1)
+$btn_secondary_color : #6c757d;      //#6c757d  
+$btn_secondary_bold_color : #474d52; //#474d52
+
+
+
+
+%bg-primary-app { 
+    @include mixin-bg-linear-toRight($btn_primary_bold_color, $btn_primary_color, $btn_primary_bold_color); 
+}   
+%bg-primary-app-hover { 
+    @include mixin-bg-linear-toRight($btn_primary_bold_color, $btn_primary_bold_color, $btn_primary_color);     
+}  
+%bg-success-app { 
+    @include mixin-bg-linear-toRight($btn_success_bold_color , $btn_success_color , $btn_success_bold_color);    
+} 
+%bg-success-app-hover { 
+    @include mixin-bg-linear-toRight($btn_success_bold_color, $btn_success_bold_color , $btn_success_color);     
+} 
+%bg-info-app { 
+    @include mixin-bg-linear-toRight($btn_info_bold_color , $btn_info_color , $btn_info_bold_color);    
+} 
+%bg-info-app-hover { 
+    @include mixin-bg-linear-toRight($btn_info_bold_color , $btn_info_bold_color , $btn_info_color);     
+} 
+%bg-warning-app { 
+    @include mixin-bg-linear-toRight($btn_warning_bold_color , $btn_warning_color , $btn_warning_bold_color);    
+} 
+%bg-warning-app-hover { 
+    @include mixin-bg-linear-toRight($btn_warning_bold_color , $btn_warning_bold_color , $btn_warning_color);     
+} 
+%bg-danger-app { 
+    @include mixin-bg-linear-toRight($btn_danger_bold_color , $btn_danger_color , $btn_danger_bold_color);    
+} 
+%bg-danger-app-hover { 
+    @include mixin-bg-linear-toRight($btn_danger_bold_color , $btn_danger_bold_color , $btn_danger_color);     
+} 
+%bg-secondary-app { 
+    @include mixin-bg-linear-toRight($btn_secondary_bold_color , $btn_secondary_color , $btn_secondary_bold_color);    
+} 
+%bg-secondary-app-hover { 
+    @include mixin-bg-linear-toRight($btn_secondary_bold_color , $btn_secondary_bold_color , $btn_secondary_color);     
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@mixin mixin-bg-linear-toRight($maincolor,$leftcolor, $rightcolor) {
+    background: $maincolor;     
+    background: -webkit-linear-gradient(left, $leftcolor , $rightcolor);
+    background: -o-linear-gradient(right, $leftcolor, $rightcolor); 
+    background: -moz-linear-gradient(right, $leftcolor, $rightcolor);
+    background: linear-gradient(to right, $leftcolor , $rightcolor);
+}*/
+
+/*%bg-primary-app { 
+    background: $btn_primary_color;     
+    background: -webkit-linear-gradient(left, $btn_primary_shadow_color , $btn_primary_color);
+    background: -o-linear-gradient(right, $btn_primary_shadow_color, $btn_primary_color); 
+    background: -moz-linear-gradient(right, $btn_primary_shadow_color, $btn_primary_color);
+    background: linear-gradient(to right, $btn_primary_shadow_color , $btn_primary_color);
+}
+%bg-primary-app-hover { 
+    background: #4d94ff;     
+    background: -webkit-linear-gradient(left, $btn_primary_color , $btn_primary_shadow_color);
+    background: -o-linear-gradient(right, $btn_primary_color, $btn_primary_shadow_color); 
+    background: -moz-linear-gradient(right, $btn_primary_color, $btn_primary_shadow_color);
+    background: linear-gradient(to right, $btn_primary_color , $btn_primary_shadow_color);
+}
+%bg-success-app { 
+    background: $btn_success_color;     
+    background: -webkit-linear-gradient(left, $btn_success_shadow_color , $btn_success_color);
+    background: -o-linear-gradient(right, $btn_success_shadow_color, $btn_success_color); 
+    background: -moz-linear-gradient(right, $btn_success_shadow_color, $btn_success_color);
+    background: linear-gradient(to right, $btn_success_shadow_color , $btn_success_color);
+}
+%bg-success-app-hover { 
+    background: $btn_success_color;     
+    background: -webkit-linear-gradient(left, $btn_success_color , $btn_success_shadow_color);
+    background: -o-linear-gradient(right, $btn_success_color, $btn_success_shadow_color); 
+    background: -moz-linear-gradient(right, $btn_success_color, $btn_success_shadow_color);
+    background: linear-gradient(to right, $btn_success_color , $btn_success_shadow_color);
+}
+*/

@@ -1,0 +1,41 @@
+.row { 
+    margin:0;
+    padding:0;
+}
+
+[class*="col-"] {
+    margin:0;
+    padding:0;
+}
+
+.btn {
+    color:white;
+    padding:2px;
+    /*overflow: hidden;
+    text-overflow: ellipsis;*/
+    transition:box-shadow 0.5s;
+}
+.btn:hover {
+    filter: brightness(92%);
+    box-shadow: 3px 3px blueviolet;
+    text-overflow: inherit;
+    overflow: visible;
+}
+
+ul.list-group{
+    border:none;
+    padding-left:10px;
+    padding-right:10px;
+}
+ul.list-group .list-group-item{
+    margin: 1px;
+    font-size:11px;
+    color:green;
+    border:none;
+    border-bottom:inset thin green;
+}
+
+.slow-spin {
+   -webkit-animation: fa-spin 6s infinite linear;
+   animation: fa-spin 6s infinite linear;
+}

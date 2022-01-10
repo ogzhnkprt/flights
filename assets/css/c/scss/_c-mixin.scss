@@ -1,0 +1,53 @@
+
+/*@mixin box-shadow($args...) {
+  -webkit-box-shadow: $args;
+  -moz-box-shadow: $args;
+  box-shadow: $args;
+}*/
+
+/*@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+  @if $inset != "" {
+    -webkit-box-shadow:$top $left $blur $color $inset;
+    -moz-box-shadow:$top $left $blur $color $inset;
+    box-shadow:$top $left $blur $color $inset;
+  }
+}*/
+
+/*@mixin box-shadow($top, $left, $blur, $color, $inset:null) {
+  -webkit-box-shadow: $top $left $blur $color $inset;
+  -moz-box-shadow:    $top $left $blur $color $inset;
+  box-shadow:         $top $left $blur $color $inset;
+}*/
+
+/*@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+  -webkit-box-shadow: $top $left $blur $color unquote($inset);
+  -moz-box-shadow: $top $left $blur $color unquote($inset);
+  box-shadow: $top $left $blur $color unquote($inset);
+}*/
+
+/*@mixin button( $bgcolor:blue ){
+    background:$bgcolor;
+}*/
+
+
+@mixin mixin-bg-linear-toRight($maincolor, $leftcolor, $rightcolor) {
+    background: $maincolor;     
+    background: -webkit-linear-gradient(left, $leftcolor , $rightcolor);
+    background: -o-linear-gradient(right, $leftcolor, $rightcolor); 
+    background: -moz-linear-gradient(right, $leftcolor, $rightcolor);
+    background: linear-gradient(to right, $leftcolor , $rightcolor);
+}
+@mixin mixin-bg-linear-toDown($maincolor, $topcolor, $bottomcolor) {
+    background: $maincolor;     
+    background: -webkit-linear-gradient($topcolor , $bottomcolor);
+    background: -o-linear-gradient($topcolor, $bottomcolor); 
+    background: -moz-linear-gradient($topcolor, $bottomcolor);
+    background: linear-gradient($topcolor , $bottomcolor);
+}
+@mixin mixin-bg-radial($maincolor, $centercolor, $outcolor) {
+    background: $maincolor;     
+    background: -webkit-radial-gradient( $centercolor , $outcolor);
+    background: -o-radial-gradient( $centercolor , $outcolor); 
+    background: -moz-radial-gradient( $centercolor , $outcolor);
+    background: radial-gradient( $centercolor , $outcolor);
+}

@@ -1,0 +1,2543 @@
+
+/* SIMPLE BG  */
+%bg-white-c {background: white}
+%bg-whitesmoke-c {background: whitesmoke}
+%bg-black-c {background: black}
+%bg-blue-c {background: blue}
+%bg-blueviolet-c {background: blueviolet}
+%bg-red-c {background: red}
+%bg-green-c {background: green}
+%bg-greenyellow-c {background: greenyellow}
+%bg-yellow-c {background: yellow}
+%bg-yellowgreen-c {background: yellowgreen}
+%bg-gray-c {background: gray}
+%bg-graytext-c {background: graytext}
+%bg-orange-c {background: orange}
+%bg-orangered-c {background: orangered}
+%bg-pink-c {background: pink}
+%bg-brown-c {background: brown}
+%bg-purple-c {background: purple}
+
+%bg-activeborder-c {background: activeborder}
+%bg-antiquewhite-c {background: antiquewhite}
+%bg-aqua-c {background: aqua}
+%bg-burlywood-c {background: burlywood}
+%bg-cadetblue-c {background: cadetblue}
+%bg-darkcyan-c {background: darkcyan}
+%bg-darkslateblue-c {background: darkslateblue}
+%bg-forestgreen-c {background: forestgreen}
+%bg-fuchsia-c {background: fuchsia}
+%bg-highlight-c {background: highlight}
+%bg-hotpink-c {background: hotpink}
+%bg-indigo-c {background: indigo}
+%bg-lawngreen-c {background: lawngreen}
+%bg-lemonchiffon-c {background: lemonchiffon}
+%bg-lightcyan-c {background: lightcyan}
+%bg-lightgreen-c {background: lightgreen}
+%bg-lightpink-c {background: lightpink}
+%bg-lightseagreen-c {background: lightseagreen}
+%bg-lightskyblue-c {background: lightskyblue}
+%bg-lightslategray-c {background: lightslategray}
+%bg-mediumblue-c {background: mediumblue}
+%bg-mediumpurple-c {background: mediumpurple}
+%bg-mediumseagreen-c {background: mediumseagreen}
+%bg-midnightblue-c {background: midnightblue}
+%bg-olive-c {background: olive}
+%bg-tan-c {background: tan}
+%bg-teal-c {background: teal}
+%bg-tomato-c {background: tomato}
+%bg-transparent-c {background: transparent}
+%bg-turquoise-c {background: turquoise}
+
+
+
+
+
+
+
+
+/*  LINEAR GRADIENT  TO RIGHT*/
+    /*white , black , blue , red , green , yellow , gray , orange , pink , brown , purple */
+
+%bg-whiteToblack-R-c { 
+    background: white;     
+    background: -webkit-linear-gradient(left, white , black);
+    background: -o-linear-gradient(right, white, black); 
+    background: -moz-linear-gradient(right, white, black);
+    background: linear-gradient(to right, white , black);
+}
+%bg-whiteToblue-R-c { 
+    background: white;     
+    background: -webkit-linear-gradient(left, white , blue);
+    background: -o-linear-gradient(right, white, blue); 
+    background: -moz-linear-gradient(right, white, blue);
+    background: linear-gradient(to right, white , blue);
+}
+%bg-whiteTored-R-c { 
+    background: white;     
+    background: -webkit-linear-gradient(left, white , red);
+    background: -o-linear-gradient(right, white, red); 
+    background: -moz-linear-gradient(right, white, red);
+    background: linear-gradient(to right, white , red);
+}
+%bg-whiteTogreen-R-c { 
+    background: white;     
+    background: -webkit-linear-gradient(left, white , green);
+    background: -o-linear-gradient(right, white, green); 
+    background: -moz-linear-gradient(right, white, green);
+    background: linear-gradient(to right, white , green);
+}
+%bg-whiteToyellow-R-c { 
+    background: blue;     
+    background: -webkit-linear-gradient(left, white , yellow);
+    background: -o-linear-gradient(right, white, yellow); 
+    background: -moz-linear-gradient(right, white, yellow);
+    background: linear-gradient(to right, white , yellow);
+}
+%bg-whiteTogray-R-c { 
+    background: white;     
+    background: -webkit-linear-gradient(left, white , gray);
+    background: -o-linear-gradient(right, white, gray); 
+    background: -moz-linear-gradient(right, white, gray);
+    background: linear-gradient(to right, white , gray);
+}
+%bg-whiteToorange-R-c { 
+    background: white;     
+    background: -webkit-linear-gradient(left, white , orange);
+    background: -o-linear-gradient(right, white, orange); 
+    background: -moz-linear-gradient(right, white, orange);
+    background: linear-gradient(to right, white , orange);
+}
+%bg-whiteTopink-R-c { 
+    background: white;     
+    background: -webkit-linear-gradient(left, white , pink);
+    background: -o-linear-gradient(right, white, pink); 
+    background: -moz-linear-gradient(right, white, pink);
+    background: linear-gradient(to right, white , pink);
+}
+%bg-whiteTobrown-R-c { 
+    background: white;     
+    background: -webkit-linear-gradient(left, white , brown);
+    background: -o-linear-gradient(right, white, brown); 
+    background: -moz-linear-gradient(right, white, brown);
+    background: linear-gradient(to right, white , brown);
+}
+%bg-whiteTopurple-R-c { 
+    background: white;     
+    background: -webkit-linear-gradient(left, white , purple);
+    background: -o-linear-gradient(right, white, purple); 
+    background: -moz-linear-gradient(right, white, purple);
+    background: linear-gradient(to right, white , purple);
+}
+
+
+
+
+%bg-blackTowhite-R-c { 
+    background: black;     
+    background: -webkit-linear-gradient(left, black , white);
+    background: -o-linear-gradient(right, black , white); 
+    background: -moz-linear-gradient(right, black , white);
+    background: linear-gradient(to right, black , white);
+}
+%bg-blackToblue-R-c { 
+    background: black;     
+    background: -webkit-linear-gradient(left, black , blue);
+    background: -o-linear-gradient(right, black , blue); 
+    background: -moz-linear-gradient(right, black , blue);
+    background: linear-gradient(to right, black , blue);
+}
+%bg-blackTored-R-c { 
+    background: black;     
+    background: -webkit-linear-gradient(left, black , red);
+    background: -o-linear-gradient(right, black , red); 
+    background: -moz-linear-gradient(right, black , red);
+    background: linear-gradient(to right, black , red);
+}
+%bg-blackTogreen-R-c { 
+    background: black;     
+    background: -webkit-linear-gradient(left, black , green);
+    background: -o-linear-gradient(right, black , green); 
+    background: -moz-linear-gradient(right, black , green);
+    background: linear-gradient(to right, black , green);
+}
+%bg-blackToyellow-R-c { 
+    background: black;     
+    background: -webkit-linear-gradient(left, black , yellow);
+    background: -o-linear-gradient(right, black , yellow); 
+    background: -moz-linear-gradient(right, black , yellow);
+    background: linear-gradient(to right, black , yellow);
+}
+%bg-blackTogray-R-c { 
+    background: black;     
+    background: -webkit-linear-gradient(left, black , gray);
+    background: -o-linear-gradient(right, black , gray); 
+    background: -moz-linear-gradient(right, black , gray);
+    background: linear-gradient(to right, black , gray);
+}
+%bg-blackToorange-R-c { 
+    background: black;     
+    background: -webkit-linear-gradient(left, black , orange);
+    background: -o-linear-gradient(right, black , orange); 
+    background: -moz-linear-gradient(right, black , orange);
+    background: linear-gradient(to right, black , orange);
+}
+%bg-blackTopink-R-c { 
+    background: black;     
+    background: -webkit-linear-gradient(left, black , pink);
+    background: -o-linear-gradient(right, black , pink); 
+    background: -moz-linear-gradient(right, black , pink);
+    background: linear-gradient(to right, black , pink);
+}
+%bg-blackTobrown-R-c { 
+    background: black;     
+    background: -webkit-linear-gradient(left, black , brown);
+    background: -o-linear-gradient(right, black , brown); 
+    background: -moz-linear-gradient(right, black , brown);
+    background: linear-gradient(to right, black , brown);
+}
+%bg-blackTopurple-R-c { 
+    background: black;     
+    background: -webkit-linear-gradient(left, black , purple);
+    background: -o-linear-gradient(right, black , purple); 
+    background: -moz-linear-gradient(right, black , purple);
+    background: linear-gradient(to right, black , purple);
+}
+
+
+
+
+
+%bg-blueTowhite-R-c { 
+    background: blue;     
+    background: -webkit-linear-gradient(left, blue , white);
+    background: -o-linear-gradient(right, blue , white); 
+    background: -moz-linear-gradient(right, blue , white);
+    background: linear-gradient(to right, blue , white);
+}
+%bg-blueToblack-R-c { 
+    background: blue;     
+    background: -webkit-linear-gradient(left, blue , black);
+    background: -o-linear-gradient(right, blue , black); 
+    background: -moz-linear-gradient(right, blue , black);
+    background: linear-gradient(to right, blue , black);
+}
+
+%bg-blueTored-R-c { 
+    background: blue;     
+    background: -webkit-linear-gradient(left, blue , red);
+    background: -o-linear-gradient(right, blue , red); 
+    background: -moz-linear-gradient(right, blue , red);
+    background: linear-gradient(to right, blue , red);
+}
+%bg-blueTogreen-R-c { 
+    background: blue;     
+    background: -webkit-linear-gradient(left, blue , green);
+    background: -o-linear-gradient(right, blue , green); 
+    background: -moz-linear-gradient(right, blue , green);
+    background: linear-gradient(to right, blue , green);
+}
+%bg-blueToyellow-R-c { 
+    background: blue;     
+    background: -webkit-linear-gradient(left, blue , yellow);
+    background: -o-linear-gradient(right, blue , yellow); 
+    background: -moz-linear-gradient(right, blue , yellow);
+    background: linear-gradient(to right, blue , yellow);
+}
+%bg-blueTogray-R-c { 
+    background: blue;     
+    background: -webkit-linear-gradient(left, blue , gray);
+    background: -o-linear-gradient(right, blue , gray); 
+    background: -moz-linear-gradient(right, blue , gray);
+    background: linear-gradient(to right, blue , gray);
+}
+%bg-blueToorange-R-c { 
+    background: blue;     
+    background: -webkit-linear-gradient(left, blue , orange);
+    background: -o-linear-gradient(right, blue , orange); 
+    background: -moz-linear-gradient(right, blue , orange);
+    background: linear-gradient(to right, blue , orange);
+}
+%bg-blueTopink-R-c { 
+    background: blue;     
+    background: -webkit-linear-gradient(left, blue , pink);
+    background: -o-linear-gradient(right, blue , pink); 
+    background: -moz-linear-gradient(right, blue , pink);
+    background: linear-gradient(to right, blue , pink);
+}
+%bg-blueTobrown-R-c { 
+    background: blue;     
+    background: -webkit-linear-gradient(left, blue , brown);
+    background: -o-linear-gradient(right, blue , brown); 
+    background: -moz-linear-gradient(right, blue , brown);
+    background: linear-gradient(to right, blue , brown);
+}
+%bg-blueTopurple-R-c { 
+    background: blue;     
+    background: -webkit-linear-gradient(left, blue , purple);
+    background: -o-linear-gradient(right, blue , purple); 
+    background: -moz-linear-gradient(right, blue , purple);
+    background: linear-gradient(to right, blue , purple);
+}
+
+
+
+
+%bg-redTowhite-R-c { 
+    background: red;     
+    background: -webkit-linear-gradient(left, red  , white);
+    background: -o-linear-gradient(right, red , white); 
+    background: -moz-linear-gradient(right, red, white);
+    background: linear-gradient(to right, red , white);
+}
+%bg-redToblack-R-c { 
+    background: red;     
+    background: -webkit-linear-gradient(left, red  , black);
+    background: -o-linear-gradient(right, red , black); 
+    background: -moz-linear-gradient(right, red, black);
+    background: linear-gradient(to right, red , black);
+}
+%bg-redToblue-R-c { 
+    background: red;     
+    background: -webkit-linear-gradient(left, red  , blue);
+    background: -o-linear-gradient(right, red , blue); 
+    background: -moz-linear-gradient(right, red, blue);
+    background: linear-gradient(to right, red , blue);
+}
+%bg-redTogreen-R-c { 
+    background: red;     
+    background: -webkit-linear-gradient(left, red  , green);
+    background: -o-linear-gradient(right, red , green); 
+    background: -moz-linear-gradient(right, red, green);
+    background: linear-gradient(to right, red , green);
+}
+%bg-redToyellow-R-c { 
+    background: red;     
+    background: -webkit-linear-gradient(left, red  , yellow);
+    background: -o-linear-gradient(right, red , yellow); 
+    background: -moz-linear-gradient(right, red, yellow);
+    background: linear-gradient(to right, red , yellow);
+}
+%bg-redTogray-R-c { 
+    background: red;     
+    background: -webkit-linear-gradient(left, red  , gray);
+    background: -o-linear-gradient(right, red , gray); 
+    background: -moz-linear-gradient(right, red, gray);
+    background: linear-gradient(to right, red , gray);
+}
+%bg-redToorange-R-c { 
+    background: red;     
+    background: -webkit-linear-gradient(left, red  , orange);
+    background: -o-linear-gradient(right, red , orange); 
+    background: -moz-linear-gradient(right, red, orange);
+    background: linear-gradient(to right, red , orange);
+}
+%bg-redTopink-R-c { 
+    background: red;     
+    background: -webkit-linear-gradient(left, red  , pink);
+    background: -o-linear-gradient(right, red , pink); 
+    background: -moz-linear-gradient(right, red, pink);
+    background: linear-gradient(to right, red , pink);
+}
+%bg-redTobrown-R-c { 
+    background: red;     
+    background: -webkit-linear-gradient(left, red  , brown);
+    background: -o-linear-gradient(right, red , brown); 
+    background: -moz-linear-gradient(right, red, brown);
+    background: linear-gradient(to right, red , brown);
+}
+%bg-redTopurple-R-c { 
+    background: red;     
+    background: -webkit-linear-gradient(left, red  , purple);
+    background: -o-linear-gradient(right, red , purple); 
+    background: -moz-linear-gradient(right, red, purple);
+    background: linear-gradient(to right, red , purple);
+}
+
+
+
+
+
+%bg-greenTowhite-R-c { 
+    background: green;     
+    background: -webkit-linear-gradient(left, green , white);
+    background: -o-linear-gradient(right, green , white); 
+    background: -moz-linear-gradient(right, green , white);
+    background: linear-gradient(to right, green , white);
+}
+%bg-greenToblack-R-c { 
+    background: green;     
+    background: -webkit-linear-gradient(left, green , black);
+    background: -o-linear-gradient(right, green , black); 
+    background: -moz-linear-gradient(right, green , black);
+    background: linear-gradient(to right, green , black);
+}
+%bg-greenToblue-R-c { 
+    background: green;     
+    background: -webkit-linear-gradient(left, green , blue);
+    background: -o-linear-gradient(right, green , blue); 
+    background: -moz-linear-gradient(right, green , blue);
+    background: linear-gradient(to right, green , blue);
+}
+%bg-greenTored-R-c { 
+    background: green;     
+    background: -webkit-linear-gradient(left, green , red);
+    background: -o-linear-gradient(right, green , red); 
+    background: -moz-linear-gradient(right, green , red);
+    background: linear-gradient(to right, green , red);
+}
+%bg-greenToyellow-R-c { 
+    background: green;     
+    background: -webkit-linear-gradient(left, green , yellow);
+    background: -o-linear-gradient(right, green ,yellow ); 
+    background: -moz-linear-gradient(right, green , yellow);
+    background: linear-gradient(to right, green , yellow);
+}
+%bg-greenTogray-R-c { 
+    background: green;     
+    background: -webkit-linear-gradient(left, green , gray);
+    background: -o-linear-gradient(right, green , gray); 
+    background: -moz-linear-gradient(right, green , gray);
+    background: linear-gradient(to right, green , gray);
+}
+%bg-greenToorange-R-c { 
+    background: green;     
+    background: -webkit-linear-gradient(left, green , orange);
+    background: -o-linear-gradient(right, green ,orange); 
+    background: -moz-linear-gradient(right, green , orange);
+    background: linear-gradient(to right, green , orange);
+}
+%bg-greenTopink-R-c { 
+    background: green;     
+    background: -webkit-linear-gradient(left, green , pink);
+    background: -o-linear-gradient(right, green , pink); 
+    background: -moz-linear-gradient(right, green , pink);
+    background: linear-gradient(to right, green , pink);
+}
+%bg-greenTobrown-R-c { 
+    background: green;     
+    background: -webkit-linear-gradient(left, green , brown);
+    background: -o-linear-gradient(right, green , brown); 
+    background: -moz-linear-gradient(right, green , brown);
+    background: linear-gradient(to right, green , brown);
+}
+%bg-greenTopurple-R-c { 
+    background: green;     
+    background: -webkit-linear-gradient(left, green , purple);
+    background: -o-linear-gradient(right, green , purple); 
+    background: -moz-linear-gradient(right, green , purple);
+    background: linear-gradient(to right, green , purple);
+}
+
+
+
+
+%bg-yellowTowhite-R-c { 
+    background: yellow;     
+    background: -webkit-linear-gradient(left, yellow , white);
+    background: -o-linear-gradient(right, yellow , white); 
+    background: -moz-linear-gradient(right, yellow , white);
+    background: linear-gradient(to right, yellow , white);
+}
+%bg-yellowToblack-R-c { 
+    background: yellow;     
+    background: -webkit-linear-gradient(left, yellow , black);
+    background: -o-linear-gradient(right, yellow , black); 
+    background: -moz-linear-gradient(right, yellow , black);
+    background: linear-gradient(to right, yellow , black);
+}
+%bg-yellowToblue-R-c { 
+    background: yellow;     
+    background: -webkit-linear-gradient(left, yellow , blue);
+    background: -o-linear-gradient(right, yellow , blue); 
+    background: -moz-linear-gradient(right, yellow , blue);
+    background: linear-gradient(to right, yellow , blue);
+}
+%bg-yellowTored-R-c { 
+    background: yellow;     
+    background: -webkit-linear-gradient(left, yellow , red);
+    background: -o-linear-gradient(right, yellow , red); 
+    background: -moz-linear-gradient(right, yellow , red);
+    background: linear-gradient(to right, yellow , red);
+}
+%bg-yellowTogreen-R-c { 
+    background: yellow;     
+    background: -webkit-linear-gradient(left, yellow , green);
+    background: -o-linear-gradient(right, yellow , green); 
+    background: -moz-linear-gradient(right, yellow , green);
+    background: linear-gradient(to right, yellow , green);
+}
+%bg-yellowTogray-R-c { 
+    background: yellow;     
+    background: -webkit-linear-gradient(left, yellow , gray);
+    background: -o-linear-gradient(right, yellow , gray); 
+    background: -moz-linear-gradient(right, yellow , gray);
+    background: linear-gradient(to right, yellow , gray);
+}
+%bg-yellowToorange-R-c { 
+    background: yellow;     
+    background: -webkit-linear-gradient(left, yellow , orange);
+    background: -o-linear-gradient(right, yellow , orange); 
+    background: -moz-linear-gradient(right, yellow , orange);
+    background: linear-gradient(to right, yellow , orange);
+}
+%bg-yellowTopink-R-c { 
+    background: yellow;     
+    background: -webkit-linear-gradient(left, yellow , pink);
+    background: -o-linear-gradient(right, yellow , pink); 
+    background: -moz-linear-gradient(right, yellow , pink);
+    background: linear-gradient(to right, yellow , pink);
+}
+%bg-yellowTobrown-R-c { 
+    background: yellow;     
+    background: -webkit-linear-gradient(left, yellow , brown);
+    background: -o-linear-gradient(right, yellow , brown); 
+    background: -moz-linear-gradient(right, yellow , brown);
+    background: linear-gradient(to right, yellow , brown);
+}
+%bg-yellowTopurple-R-c { 
+    background: yellow;     
+    background: -webkit-linear-gradient(left, yellow , purple);
+    background: -o-linear-gradient(right, yellow , purple); 
+    background: -moz-linear-gradient(right, yellow , purple);
+    background: linear-gradient(to right, yellow , purple);
+}
+
+
+
+
+
+%bg-grayTowhite-R-c { 
+    background: gray;     
+    background: -webkit-linear-gradient(left, gray , white);
+    background: -o-linear-gradient(right, gray , white); 
+    background: -moz-linear-gradient(right, gray , white);
+    background: linear-gradient(to right, gray , white);
+}
+%bg-grayToblack-R-c { 
+    background: gray;     
+    background: -webkit-linear-gradient(left, gray , black);
+    background: -o-linear-gradient(right, gray , black); 
+    background: -moz-linear-gradient(right, gray , black);
+    background: linear-gradient(to right, gray , black);
+}
+%bg-grayToblue-R-c { 
+    background: gray;     
+    background: -webkit-linear-gradient(left, gray , blue);
+    background: -o-linear-gradient(right, gray , blue); 
+    background: -moz-linear-gradient(right, gray , blue);
+    background: linear-gradient(to right, gray , blue);
+}
+%bg-grayTored-R-c { 
+    background: gray;     
+    background: -webkit-linear-gradient(left, gray , red);
+    background: -o-linear-gradient(right, gray , red); 
+    background: -moz-linear-gradient(right, gray , red);
+    background: linear-gradient(to right, gray , red);
+}
+%bg-grayTogreen-R-c { 
+    background: gray;     
+    background: -webkit-linear-gradient(left, gray , green);
+    background: -o-linear-gradient(right, gray , green); 
+    background: -moz-linear-gradient(right, gray , green);
+    background: linear-gradient(to right, gray , green);
+}
+%bg-grayToyellow-R-c { 
+    background: gray;     
+    background: -webkit-linear-gradient(left, gray , yellow);
+    background: -o-linear-gradient(right, gray , yellow); 
+    background: -moz-linear-gradient(right, gray , yellow);
+    background: linear-gradient(to right, gray , yellow);
+}
+%bg-grayToorange-R-c { 
+    background: gray;     
+    background: -webkit-linear-gradient(left, gray , orange);
+    background: -o-linear-gradient(right, gray , orange); 
+    background: -moz-linear-gradient(right, gray , orange);
+    background: linear-gradient(to right, gray , orange);
+}
+%bg-grayTopink-R-c { 
+    background: gray;     
+    background: -webkit-linear-gradient(left, gray , pink);
+    background: -o-linear-gradient(right, gray , pink); 
+    background: -moz-linear-gradient(right, gray , pink);
+    background: linear-gradient(to right, gray , pink);
+}
+%bg-grayTobrown-R-c { 
+    background: gray;     
+    background: -webkit-linear-gradient(left, gray , brown);
+    background: -o-linear-gradient(right, gray , brown); 
+    background: -moz-linear-gradient(right, gray , brown);
+    background: linear-gradient(to right, gray , brown);
+}
+%bg-grayTopurple-R-c { 
+    background: gray;     
+    background: -webkit-linear-gradient(left, gray , purple);
+    background: -o-linear-gradient(right, gray , purple); 
+    background: -moz-linear-gradient(right, gray , purple);
+    background: linear-gradient(to right, gray , purple);
+}
+
+
+
+
+
+%bg-orangeTowhite-R-c { 
+    background: orange;     
+    background: -webkit-linear-gradient(left, orange , white);
+    background: -o-linear-gradient(right, orange , white); 
+    background: -moz-linear-gradient(right, orange , white);
+    background: linear-gradient(to right, orange , white);
+}
+%bg-orangeToblack-R-c { 
+    background: orange;     
+    background: -webkit-linear-gradient(left, orange , black);
+    background: -o-linear-gradient(right, orange , black); 
+    background: -moz-linear-gradient(right, orange , black);
+    background: linear-gradient(to right, orange , black);
+}
+%bg-orangeToblue-R-c { 
+    background: orange;     
+    background: -webkit-linear-gradient(left, orange , blue);
+    background: -o-linear-gradient(right, orange , blue); 
+    background: -moz-linear-gradient(right, orange , blue);
+    background: linear-gradient(to right, orange , blue);
+}
+%bg-orangeTored-R-c { 
+    background: orange;     
+    background: -webkit-linear-gradient(left, orange , red);
+    background: -o-linear-gradient(right, orange , red); 
+    background: -moz-linear-gradient(right, orange , red);
+    background: linear-gradient(to right, orange , red);
+}
+%bg-orangeTogreen-R-c { 
+    background: orange;     
+    background: -webkit-linear-gradient(left, orange , green);
+    background: -o-linear-gradient(right, orange , green); 
+    background: -moz-linear-gradient(right, orange , green);
+    background: linear-gradient(to right, orange , green);
+}
+%bg-orangeToyellow-R-c { 
+    background: orange;     
+    background: -webkit-linear-gradient(left, orange , yellow);
+    background: -o-linear-gradient(right, orange , yellow); 
+    background: -moz-linear-gradient(right, orange , yellow);
+    background: linear-gradient(to right, orange , yellow);
+}
+%bg-orangeTogray-R-c { 
+    background: orange;     
+    background: -webkit-linear-gradient(left, orange , gray);
+    background: -o-linear-gradient(right, orange , gray); 
+    background: -moz-linear-gradient(right, orange , gray);
+    background: linear-gradient(to right, orange , gray);
+}
+%bg-orangeTopink-R-c { 
+    background: orange;     
+    background: -webkit-linear-gradient(left, orange , pink);
+    background: -o-linear-gradient(right, orange , pink); 
+    background: -moz-linear-gradient(right, orange , pink);
+    background: linear-gradient(to right, orange , pink);
+}
+%bg-orangeTobrown-R-c { 
+    background: orange;     
+    background: -webkit-linear-gradient(left, orange , brown);
+    background: -o-linear-gradient(right, orange , brown); 
+    background: -moz-linear-gradient(right, orange , brown);
+    background: linear-gradient(to right, orange , brown);
+}
+%bg-orangeTopurple-R-c { 
+    background: orange;     
+    background: -webkit-linear-gradient(left, orange , purple);
+    background: -o-linear-gradient(right, orange , purple); 
+    background: -moz-linear-gradient(right, orange , purple);
+    background: linear-gradient(to right, orange , purple);
+}
+
+
+
+
+%bg-pinkTowhite-R-c { 
+    background: pink;     
+    background: -webkit-linear-gradient(left, pink , white);
+    background: -o-linear-gradient(right, pink , white); 
+    background: -moz-linear-gradient(right, pink , white);
+    background: linear-gradient(to right, pink , white);
+}
+%bg-pinkToblack-R-c { 
+    background: pink;     
+    background: -webkit-linear-gradient(left, pink , black);
+    background: -o-linear-gradient(right, pink , black); 
+    background: -moz-linear-gradient(right, pink , black);
+    background: linear-gradient(to right, pink , black);
+}
+%bg-pinkToblue-R-c { 
+    background: pink;     
+    background: -webkit-linear-gradient(left, pink , blue);
+    background: -o-linear-gradient(right, pink , blue); 
+    background: -moz-linear-gradient(right, pink , blue);
+    background: linear-gradient(to right, pink , blue);
+}
+%bg-pinkTored-R-c { 
+    background: pink;     
+    background: -webkit-linear-gradient(left, pink , red);
+    background: -o-linear-gradient(right, pink , red); 
+    background: -moz-linear-gradient(right, pink , red);
+    background: linear-gradient(to right, pink , red);
+}
+%bg-pinkTogreen-R-c { 
+    background: pink;     
+    background: -webkit-linear-gradient(left, pink , green);
+    background: -o-linear-gradient(right, pink , green); 
+    background: -moz-linear-gradient(right, pink , green);
+    background: linear-gradient(to right, pink , green);
+}
+%bg-pinkToyellow-R-c { 
+    background: pink;     
+    background: -webkit-linear-gradient(left, pink , yellow);
+    background: -o-linear-gradient(right, pink , yellow); 
+    background: -moz-linear-gradient(right, pink , yellow);
+    background: linear-gradient(to right, pink , yellow);
+}
+%bg-pinkTogray-R-c { 
+    background: pink;     
+    background: -webkit-linear-gradient(left, pink , gray);
+    background: -o-linear-gradient(right, pink , gray); 
+    background: -moz-linear-gradient(right, pink , gray);
+    background: linear-gradient(to right, pink , gray);
+}
+%bg-pinkToorange-R-c { 
+    background: pink;     
+    background: -webkit-linear-gradient(left, pink , orange);
+    background: -o-linear-gradient(right, pink , orange); 
+    background: -moz-linear-gradient(right, pink , orange);
+    background: linear-gradient(to right, pink , orange);
+}
+%bg-pinkTobrown-R-c { 
+    background: pink;     
+    background: -webkit-linear-gradient(left, pink , brown);
+    background: -o-linear-gradient(right, pink , brown); 
+    background: -moz-linear-gradient(right, pink , brown);
+    background: linear-gradient(to right, pink , brown);
+}
+%bg-pinkTopurple-R-c { 
+    background: pink;     
+    background: -webkit-linear-gradient(left, pink , purple);
+    background: -o-linear-gradient(right, pink , purple); 
+    background: -moz-linear-gradient(right, pink , purple);
+    background: linear-gradient(to right, pink , purple);
+}
+
+
+
+
+
+
+%bg-brownTowhite-R-c { 
+    background: brown;     
+    background: -webkit-linear-gradient(left, brown , white);
+    background: -o-linear-gradient(right, brown , white); 
+    background: -moz-linear-gradient(right, brown , white);
+    background: linear-gradient(to right, brown , white);
+}
+%bg-brownToblack-R-c { 
+    background: brown;     
+    background: -webkit-linear-gradient(left, brown , black);
+    background: -o-linear-gradient(right, brown , black); 
+    background: -moz-linear-gradient(right, brown , black);
+    background: linear-gradient(to right, brown , black);
+}
+%bg-brownToblue-R-c { 
+    background: brown;     
+    background: -webkit-linear-gradient(left, brown , blue);
+    background: -o-linear-gradient(right, brown , blue); 
+    background: -moz-linear-gradient(right, brown , blue);
+    background: linear-gradient(to right, brown , blue);
+}
+%bg-brownTored-R-c { 
+    background: brown;     
+    background: -webkit-linear-gradient(left, brown , red);
+    background: -o-linear-gradient(right, brown , red); 
+    background: -moz-linear-gradient(right, brown , red);
+    background: linear-gradient(to right, brown , red);
+}
+%bg-brownTogreen-R-c { 
+    background: brown;     
+    background: -webkit-linear-gradient(left, brown , green);
+    background: -o-linear-gradient(right, brown , green); 
+    background: -moz-linear-gradient(right, brown , green);
+    background: linear-gradient(to right, brown , green);
+}
+%bg-brownToyellow-R-c { 
+    background: brown;     
+    background: -webkit-linear-gradient(left, brown , yellow);
+    background: -o-linear-gradient(right, brown , yellow); 
+    background: -moz-linear-gradient(right, brown , yellow);
+    background: linear-gradient(to right, brown , yellow);
+}
+%bg-brownTogray-R-c { 
+    background: brown;     
+    background: -webkit-linear-gradient(left, brown , gray);
+    background: -o-linear-gradient(right, brown , gray); 
+    background: -moz-linear-gradient(right, brown , gray);
+    background: linear-gradient(to right, brown , gray);
+}
+%bg-brownToorange-R-c { 
+    background: brown;     
+    background: -webkit-linear-gradient(left, brown , orange);
+    background: -o-linear-gradient(right, brown , orange); 
+    background: -moz-linear-gradient(right, brown , orange);
+    background: linear-gradient(to right, brown , orange);
+}
+%bg-brownTopink-R-c { 
+    background: brown;     
+    background: -webkit-linear-gradient(left, brown , pink);
+    background: -o-linear-gradient(right, brown , pink); 
+    background: -moz-linear-gradient(right, brown , pink);
+    background: linear-gradient(to right, brown , pink);
+}
+%bg-brownTopurple-R-c { 
+    background: brown;     
+    background: -webkit-linear-gradient(left, brown , purple);
+    background: -o-linear-gradient(right, brown , purple); 
+    background: -moz-linear-gradient(right, brown , purple);
+    background: linear-gradient(to right, brown , purple);
+}
+
+
+
+
+%bg-purpleTowhite-R-c { 
+    background: purple;     
+    background: -webkit-linear-gradient(left, purple , white);
+    background: -o-linear-gradient(right, purple , white); 
+    background: -moz-linear-gradient(right, purple , white);
+    background: linear-gradient(to right, purple , white);
+}
+%bg-purpleToblack-R-c { 
+    background: purple;     
+    background: -webkit-linear-gradient(left, purple , black);
+    background: -o-linear-gradient(right, purple , black); 
+    background: -moz-linear-gradient(right, purple , black);
+    background: linear-gradient(to right, purple , black);
+}
+%bg-purpleToblue-R-c { 
+    background: purple;     
+    background: -webkit-linear-gradient(left, purple , blue);
+    background: -o-linear-gradient(right, purple , blue); 
+    background: -moz-linear-gradient(right, purple , blue);
+    background: linear-gradient(to right, purple , blue);
+}
+%bg-purpleTored-R-c { 
+    background: purple;     
+    background: -webkit-linear-gradient(left, purple , red);
+    background: -o-linear-gradient(right, purple , red); 
+    background: -moz-linear-gradient(right, purple , red);
+    background: linear-gradient(to right, purple , red);
+}
+%bg-purpleTogreen-R-c { 
+    background: purple;     
+    background: -webkit-linear-gradient(left, purple , green);
+    background: -o-linear-gradient(right, purple , green); 
+    background: -moz-linear-gradient(right, purple , green);
+    background: linear-gradient(to right, purple , green);
+}
+%bg-purpleToyellow-R-c { 
+    background: purple;     
+    background: -webkit-linear-gradient(left, purple , yellow);
+    background: -o-linear-gradient(right, purple , yellow); 
+    background: -moz-linear-gradient(right, purple , yellow);
+    background: linear-gradient(to right, purple , yellow);
+}
+%bg-purpleTogray-R-c { 
+    background: purple;     
+    background: -webkit-linear-gradient(left, purple , gray);
+    background: -o-linear-gradient(right, purple , gray); 
+    background: -moz-linear-gradient(right, purple , gray);
+    background: linear-gradient(to right, purple , gray);
+}
+%bg-purpleToorange-R-c { 
+    background: purple;     
+    background: -webkit-linear-gradient(left, purple , orange);
+    background: -o-linear-gradient(right, purple , orange); 
+    background: -moz-linear-gradient(right, purple , orange);
+    background: linear-gradient(to right, purple , orange);
+}
+%bg-purpleTopink-R-c { 
+    background: purple;     
+    background: -webkit-linear-gradient(left, purple , pink);
+    background: -o-linear-gradient(right, purple , pink); 
+    background: -moz-linear-gradient(right, purple , pink);
+    background: linear-gradient(to right, purple , pink);
+}
+%bg-purpleTobrown-R-c { 
+    background: purple;     
+    background: -webkit-linear-gradient(left, purple , brown);
+    background: -o-linear-gradient(right, purple , brown); 
+    background: -moz-linear-gradient(right, purple , brown);
+    background: linear-gradient(to right, purple , brown);
+}
+/* *************** END OF LINEAR GRADIENT RIGHT ********************************* */
+
+
+
+
+
+
+
+/*  LINEAR GRADIENT  TO DOWN*/
+    /*white , black , blue , red , green , yellow , gray , orange , pink , brown , purple */
+
+%bg-whiteToblack-D-c { 
+    background: white;     
+    background: -webkit-linear-gradient( white , black);
+    background: -o-linear-gradient( white, black); 
+    background: -moz-linear-gradient( white, black);
+    background: linear-gradient( white , black);
+}
+%bg-whiteToblue-D-c { 
+    background: white;     
+    background: -webkit-linear-gradient( white , blue);
+    background: -o-linear-gradient( white, blue); 
+    background: -moz-linear-gradient( white, blue);
+    background: linear-gradient( white , blue);
+}
+%bg-whiteTored-D-c { 
+    background: white;     
+    background: -webkit-linear-gradient( white , red);
+    background: -o-linear-gradient( white, red); 
+    background: -moz-linear-gradient( white, red);
+    background: linear-gradient( white , red);
+}
+%bg-whiteTogreen-D-c { 
+    background: white;     
+    background: -webkit-linear-gradient( white , green);
+    background: -o-linear-gradient( white, green); 
+    background: -moz-linear-gradient( white, green);
+    background: linear-gradient( white , green);
+}
+%bg-whiteToyellow-D-c { 
+    background: blue;     
+    background: -webkit-linear-gradient( white , yellow);
+    background: -o-linear-gradient( white, yellow); 
+    background: -moz-linear-gradient( white, yellow);
+    background: linear-gradient( white , yellow);
+}
+%bg-whiteTogray-D-c { 
+    background: white;     
+    background: -webkit-linear-gradient( white , gray);
+    background: -o-linear-gradient( white, gray); 
+    background: -moz-linear-gradient( white, gray);
+    background: linear-gradient( white , gray);
+}
+%bg-whiteToorange-D-c { 
+    background: white;     
+    background: -webkit-linear-gradient( white , orange);
+    background: -o-linear-gradient( white, orange); 
+    background: -moz-linear-gradient( white, orange);
+    background: linear-gradient( white , orange);
+}
+%bg-whiteTopink-D-c { 
+    background: white;     
+    background: -webkit-linear-gradient( white , pink);
+    background: -o-linear-gradient( white, pink); 
+    background: -moz-linear-gradient( white, pink);
+    background: linear-gradient( white , pink);
+}
+%bg-whiteTobrown-D-c { 
+    background: white;     
+    background: -webkit-linear-gradient( white , brown);
+    background: -o-linear-gradient( white, brown); 
+    background: -moz-linear-gradient( white, brown);
+    background: linear-gradient( white , brown);
+}
+%bg-whiteTopurple-D-c { 
+    background: white;     
+    background: -webkit-linear-gradient( white , purple);
+    background: -o-linear-gradient( white, purple); 
+    background: -moz-linear-gradient( white, purple);
+    background: linear-gradient( white , purple);
+}
+
+
+
+
+%bg-blackTowhite-D-c { 
+    background: black;     
+    background: -webkit-linear-gradient( black , white);
+    background: -o-linear-gradient( black , white); 
+    background: -moz-linear-gradient( black , white);
+    background: linear-gradient( black , white);
+}
+%bg-blackToblue-D-c { 
+    background: black;     
+    background: -webkit-linear-gradient( black , blue);
+    background: -o-linear-gradient( black , blue); 
+    background: -moz-linear-gradient( black , blue);
+    background: linear-gradient( black , blue);
+}
+%bg-blackTored-D-c { 
+    background: black;     
+    background: -webkit-linear-gradient( black , red);
+    background: -o-linear-gradient( black , red); 
+    background: -moz-linear-gradient( black , red);
+    background: linear-gradient( black , red);
+}
+%bg-blackTogreen-D-c { 
+    background: black;     
+    background: -webkit-linear-gradient( black , green);
+    background: -o-linear-gradient( black , green); 
+    background: -moz-linear-gradient( black , green);
+    background: linear-gradient( black , green);
+}
+%bg-blackToyellow-D-c { 
+    background: black;     
+    background: -webkit-linear-gradient( black , yellow);
+    background: -o-linear-gradient( black , yellow); 
+    background: -moz-linear-gradient( black , yellow);
+    background: linear-gradient( black , yellow);
+}
+%bg-blackTogray-D-c { 
+    background: black;     
+    background: -webkit-linear-gradient( black , gray);
+    background: -o-linear-gradient( black , gray); 
+    background: -moz-linear-gradient( black , gray);
+    background: linear-gradient( black , gray);
+}
+%bg-blackToorange-D-c { 
+    background: black;     
+    background: -webkit-linear-gradient( black , orange);
+    background: -o-linear-gradient( black , orange); 
+    background: -moz-linear-gradient( black , orange);
+    background: linear-gradient( black , orange);
+}
+%bg-blackTopink-D-c { 
+    background: black;     
+    background: -webkit-linear-gradient( black , pink);
+    background: -o-linear-gradient( black , pink); 
+    background: -moz-linear-gradient( black , pink);
+    background: linear-gradient( black , pink);
+}
+%bg-blackTobrown-D-c { 
+    background: black;     
+    background: -webkit-linear-gradient( black , brown);
+    background: -o-linear-gradient( black , brown); 
+    background: -moz-linear-gradient( black , brown);
+    background: linear-gradient( black , brown);
+}
+%bg-blackTopurple-D-c { 
+    background: black;     
+    background: -webkit-linear-gradient( black , purple);
+    background: -o-linear-gradient( black , purple); 
+    background: -moz-linear-gradient( black , purple);
+    background: linear-gradient( black , purple);
+}
+
+
+
+
+
+%bg-blueTowhite-D-c { 
+    background: blue;     
+    background: -webkit-linear-gradient( blue , white);
+    background: -o-linear-gradient( blue , white); 
+    background: -moz-linear-gradient( blue , white);
+    background: linear-gradient( blue , white);
+}
+%bg-blueToblack-D-c { 
+    background: blue;     
+    background: -webkit-linear-gradient( blue , black);
+    background: -o-linear-gradient( blue , black); 
+    background: -moz-linear-gradient( blue , black);
+    background: linear-gradient( blue , black);
+}
+
+%bg-blueTored-D-c { 
+    background: blue;     
+    background: -webkit-linear-gradient( blue , red);
+    background: -o-linear-gradient( blue , red); 
+    background: -moz-linear-gradient( blue , red);
+    background: linear-gradient( blue , red);
+}
+%bg-blueTogreen-D-c { 
+    background: blue;     
+    background: -webkit-linear-gradient( blue , green);
+    background: -o-linear-gradient( blue , green); 
+    background: -moz-linear-gradient( blue , green);
+    background: linear-gradient( blue , green);
+}
+%bg-blueToyellow-D-c { 
+    background: blue;     
+    background: -webkit-linear-gradient( blue , yellow);
+    background: -o-linear-gradient( blue , yellow); 
+    background: -moz-linear-gradient( blue , yellow);
+    background: linear-gradient( blue , yellow);
+}
+%bg-blueTogray-D-c { 
+    background: blue;     
+    background: -webkit-linear-gradient( blue , gray);
+    background: -o-linear-gradient( blue , gray); 
+    background: -moz-linear-gradient( blue , gray);
+    background: linear-gradient( blue , gray);
+}
+%bg-blueToorange-D-c { 
+    background: blue;     
+    background: -webkit-linear-gradient( blue , orange);
+    background: -o-linear-gradient( blue , orange); 
+    background: -moz-linear-gradient( blue , orange);
+    background: linear-gradient( blue , orange);
+}
+%bg-blueTopink-D-c { 
+    background: blue;     
+    background: -webkit-linear-gradient( blue , pink);
+    background: -o-linear-gradient( blue , pink); 
+    background: -moz-linear-gradient( blue , pink);
+    background: linear-gradient( blue , pink);
+}
+%bg-blueTobrown-D-c { 
+    background: blue;     
+    background: -webkit-linear-gradient( blue , brown);
+    background: -o-linear-gradient( blue , brown); 
+    background: -moz-linear-gradient( blue , brown);
+    background: linear-gradient( blue , brown);
+}
+%bg-blueTopurple-D-c { 
+    background: blue;     
+    background: -webkit-linear-gradient( blue , purple);
+    background: -o-linear-gradient( blue , purple); 
+    background: -moz-linear-gradient( blue , purple);
+    background: linear-gradient( blue , purple);
+}
+
+
+
+
+%bg-redTowhite-D-c { 
+    background: red;     
+    background: -webkit-linear-gradient( red  , white);
+    background: -o-linear-gradient( red , white); 
+    background: -moz-linear-gradient( red, white);
+    background: linear-gradient( red , white);
+}
+%bg-redToblack-D-c { 
+    background: red;     
+    background: -webkit-linear-gradient( red  , black);
+    background: -o-linear-gradient( red , black); 
+    background: -moz-linear-gradient( red, black);
+    background: linear-gradient( red , black);
+}
+%bg-redToblue-D-c { 
+    background: red;     
+    background: -webkit-linear-gradient( red  , blue);
+    background: -o-linear-gradient( red , blue); 
+    background: -moz-linear-gradient( red, blue);
+    background: linear-gradient( red , blue);
+}
+%bg-redTogreen-D-c { 
+    background: red;     
+    background: -webkit-linear-gradient( red  , green);
+    background: -o-linear-gradient( red , green); 
+    background: -moz-linear-gradient( red, green);
+    background: linear-gradient( red , green);
+}
+%bg-redToyellow-D-c { 
+    background: red;     
+    background: -webkit-linear-gradient( red  , yellow);
+    background: -o-linear-gradient( red , yellow); 
+    background: -moz-linear-gradient( red, yellow);
+    background: linear-gradient( red , yellow);
+}
+%bg-redTogray-D-c { 
+    background: red;     
+    background: -webkit-linear-gradient( red  , gray);
+    background: -o-linear-gradient( red , gray); 
+    background: -moz-linear-gradient( red, gray);
+    background: linear-gradient( red , gray);
+}
+%bg-redToorange-D-c { 
+    background: red;     
+    background: -webkit-linear-gradient( red  , orange);
+    background: -o-linear-gradient( red , orange); 
+    background: -moz-linear-gradient( red, orange);
+    background: linear-gradient( red , orange);
+}
+%bg-redTopink-D-c { 
+    background: red;     
+    background: -webkit-linear-gradient( red  , pink);
+    background: -o-linear-gradient( red , pink); 
+    background: -moz-linear-gradient( red, pink);
+    background: linear-gradient( red , pink);
+}
+%bg-redTobrown-D-c { 
+    background: red;     
+    background: -webkit-linear-gradient( red  , brown);
+    background: -o-linear-gradient( red , brown); 
+    background: -moz-linear-gradient( red, brown);
+    background: linear-gradient( red , brown);
+}
+%bg-redTopurple-D-c { 
+    background: red;     
+    background: -webkit-linear-gradient( red  , purple);
+    background: -o-linear-gradient( red , purple); 
+    background: -moz-linear-gradient( red, purple);
+    background: linear-gradient( red , purple);
+}
+
+
+
+
+
+%bg-greenTowhite-D-c { 
+    background: green;     
+    background: -webkit-linear-gradient( green , white);
+    background: -o-linear-gradient( green , white); 
+    background: -moz-linear-gradient( green , white);
+    background: linear-gradient( green , white);
+}
+%bg-greenToblack-D-c { 
+    background: green;     
+    background: -webkit-linear-gradient( green , black);
+    background: -o-linear-gradient( green , black); 
+    background: -moz-linear-gradient( green , black);
+    background: linear-gradient( green , black);
+}
+%bg-greenToblue-D-c { 
+    background: green;     
+    background: -webkit-linear-gradient( green , blue);
+    background: -o-linear-gradient( green , blue); 
+    background: -moz-linear-gradient( green , blue);
+    background: linear-gradient( green , blue);
+}
+%bg-greenTored-D-c { 
+    background: green;     
+    background: -webkit-linear-gradient( green , red);
+    background: -o-linear-gradient( green , red); 
+    background: -moz-linear-gradient( green , red);
+    background: linear-gradient( green , red);
+}
+%bg-greenToyellow-D-c { 
+    background: green;     
+    background: -webkit-linear-gradient( green , yellow);
+    background: -o-linear-gradient( green ,yellow ); 
+    background: -moz-linear-gradient( green , yellow);
+    background: linear-gradient( green , yellow);
+}
+%bg-greenTogray-D-c { 
+    background: green;     
+    background: -webkit-linear-gradient( green , gray);
+    background: -o-linear-gradient( green , gray); 
+    background: -moz-linear-gradient( green , gray);
+    background: linear-gradient( green , gray);
+}
+%bg-greenToorange-D-c { 
+    background: green;     
+    background: -webkit-linear-gradient( green , orange);
+    background: -o-linear-gradient( green ,orange); 
+    background: -moz-linear-gradient( green , orange);
+    background: linear-gradient( green , orange);
+}
+%bg-greenTopink-D-c { 
+    background: green;     
+    background: -webkit-linear-gradient( green , pink);
+    background: -o-linear-gradient( green , pink); 
+    background: -moz-linear-gradient( green , pink);
+    background: linear-gradient( green , pink);
+}
+%bg-greenTobrown-D-c { 
+    background: green;     
+    background: -webkit-linear-gradient( green , brown);
+    background: -o-linear-gradient( green , brown); 
+    background: -moz-linear-gradient( green , brown);
+    background: linear-gradient( green , brown);
+}
+%bg-greenTopurple-D-c { 
+    background: green;     
+    background: -webkit-linear-gradient( green , purple);
+    background: -o-linear-gradient( green , purple); 
+    background: -moz-linear-gradient( green , purple);
+    background: linear-gradient( green , purple);
+}
+
+
+
+
+%bg-yellowTowhite-D-c { 
+    background: yellow;     
+    background: -webkit-linear-gradient( yellow , white);
+    background: -o-linear-gradient( yellow , white); 
+    background: -moz-linear-gradient( yellow , white);
+    background: linear-gradient( yellow , white);
+}
+%bg-yellowToblack-D-c { 
+    background: yellow;     
+    background: -webkit-linear-gradient( yellow , black);
+    background: -o-linear-gradient( yellow , black); 
+    background: -moz-linear-gradient( yellow , black);
+    background: linear-gradient( yellow , black);
+}
+%bg-yellowToblue-D-c { 
+    background: yellow;     
+    background: -webkit-linear-gradient( yellow , blue);
+    background: -o-linear-gradient( yellow , blue); 
+    background: -moz-linear-gradient( yellow , blue);
+    background: linear-gradient( yellow , blue);
+}
+%bg-yellowTored-D-c { 
+    background: yellow;     
+    background: -webkit-linear-gradient( yellow , red);
+    background: -o-linear-gradient( yellow , red); 
+    background: -moz-linear-gradient( yellow , red);
+    background: linear-gradient( yellow , red);
+}
+%bg-yellowTogreen-D-c { 
+    background: yellow;     
+    background: -webkit-linear-gradient( yellow , green);
+    background: -o-linear-gradient( yellow , green); 
+    background: -moz-linear-gradient( yellow , green);
+    background: linear-gradient( yellow , green);
+}
+%bg-yellowTogray-D-c { 
+    background: yellow;     
+    background: -webkit-linear-gradient( yellow , gray);
+    background: -o-linear-gradient( yellow , gray); 
+    background: -moz-linear-gradient( yellow , gray);
+    background: linear-gradient( yellow , gray);
+}
+%bg-yellowToorange-D-c { 
+    background: yellow;     
+    background: -webkit-linear-gradient( yellow , orange);
+    background: -o-linear-gradient( yellow , orange); 
+    background: -moz-linear-gradient( yellow , orange);
+    background: linear-gradient( yellow , orange);
+}
+%bg-yellowTopink-D-c { 
+    background: yellow;     
+    background: -webkit-linear-gradient( yellow , pink);
+    background: -o-linear-gradient( yellow , pink); 
+    background: -moz-linear-gradient( yellow , pink);
+    background: linear-gradient( yellow , pink);
+}
+%bg-yellowTobrown-D-c { 
+    background: yellow;     
+    background: -webkit-linear-gradient( yellow , brown);
+    background: -o-linear-gradient( yellow , brown); 
+    background: -moz-linear-gradient( yellow , brown);
+    background: linear-gradient( yellow , brown);
+}
+%bg-yellowTopurple-D-c { 
+    background: yellow;     
+    background: -webkit-linear-gradient( yellow , purple);
+    background: -o-linear-gradient( yellow , purple); 
+    background: -moz-linear-gradient( yellow , purple);
+    background: linear-gradient( yellow , purple);
+}
+
+
+
+
+
+%bg-grayTowhite-D-c { 
+    background: gray;     
+    background: -webkit-linear-gradient( gray , white);
+    background: -o-linear-gradient( gray , white); 
+    background: -moz-linear-gradient( gray , white);
+    background: linear-gradient( gray , white);
+}
+%bg-grayToblack-D-c { 
+    background: gray;     
+    background: -webkit-linear-gradient( gray , black);
+    background: -o-linear-gradient( gray , black); 
+    background: -moz-linear-gradient( gray , black);
+    background: linear-gradient( gray , black);
+}
+%bg-grayToblue-D-c { 
+    background: gray;     
+    background: -webkit-linear-gradient( gray , blue);
+    background: -o-linear-gradient( gray , blue); 
+    background: -moz-linear-gradient( gray , blue);
+    background: linear-gradient( gray , blue);
+}
+%bg-grayTored-D-c { 
+    background: gray;     
+    background: -webkit-linear-gradient( gray , red);
+    background: -o-linear-gradient( gray , red); 
+    background: -moz-linear-gradient( gray , red);
+    background: linear-gradient( gray , red);
+}
+%bg-grayTogreen-D-c { 
+    background: gray;     
+    background: -webkit-linear-gradient( gray , green);
+    background: -o-linear-gradient( gray , green); 
+    background: -moz-linear-gradient( gray , green);
+    background: linear-gradient( gray , green);
+}
+%bg-grayToyellow-D-c { 
+    background: gray;     
+    background: -webkit-linear-gradient( gray , yellow);
+    background: -o-linear-gradient( gray , yellow); 
+    background: -moz-linear-gradient( gray , yellow);
+    background: linear-gradient( gray , yellow);
+}
+%bg-grayToorange-D-c { 
+    background: gray;     
+    background: -webkit-linear-gradient( gray , orange);
+    background: -o-linear-gradient( gray , orange); 
+    background: -moz-linear-gradient( gray , orange);
+    background: linear-gradient( gray , orange);
+}
+%bg-grayTopink-D-c { 
+    background: gray;     
+    background: -webkit-linear-gradient( gray , pink);
+    background: -o-linear-gradient( gray , pink); 
+    background: -moz-linear-gradient( gray , pink);
+    background: linear-gradient( gray , pink);
+}
+%bg-grayTobrown-D-c { 
+    background: gray;     
+    background: -webkit-linear-gradient( gray , brown);
+    background: -o-linear-gradient( gray , brown); 
+    background: -moz-linear-gradient( gray , brown);
+    background: linear-gradient( gray , brown);
+}
+%bg-grayTopurple-D-c { 
+    background: gray;     
+    background: -webkit-linear-gradient( gray , purple);
+    background: -o-linear-gradient( gray , purple); 
+    background: -moz-linear-gradient( gray , purple);
+    background: linear-gradient( gray , purple);
+}
+
+
+
+
+
+%bg-orangeTowhite-D-c { 
+    background: orange;     
+    background: -webkit-linear-gradient( orange , white);
+    background: -o-linear-gradient( orange , white); 
+    background: -moz-linear-gradient( orange , white);
+    background: linear-gradient( orange , white);
+}
+%bg-orangeToblack-D-c { 
+    background: orange;     
+    background: -webkit-linear-gradient( orange , black);
+    background: -o-linear-gradient( orange , black); 
+    background: -moz-linear-gradient( orange , black);
+    background: linear-gradient( orange , black);
+}
+%bg-orangeToblue-D-c { 
+    background: orange;     
+    background: -webkit-linear-gradient( orange , blue);
+    background: -o-linear-gradient( orange , blue); 
+    background: -moz-linear-gradient( orange , blue);
+    background: linear-gradient( orange , blue);
+}
+%bg-orangeTored-D-c { 
+    background: orange;     
+    background: -webkit-linear-gradient( orange , red);
+    background: -o-linear-gradient( orange , red); 
+    background: -moz-linear-gradient( orange , red);
+    background: linear-gradient( orange , red);
+}
+%bg-orangeTogreen-D-c { 
+    background: orange;     
+    background: -webkit-linear-gradient( orange , green);
+    background: -o-linear-gradient( orange , green); 
+    background: -moz-linear-gradient( orange , green);
+    background: linear-gradient( orange , green);
+}
+%bg-orangeToyellow-D-c { 
+    background: orange;     
+    background: -webkit-linear-gradient( orange , yellow);
+    background: -o-linear-gradient( orange , yellow); 
+    background: -moz-linear-gradient( orange , yellow);
+    background: linear-gradient( orange , yellow);
+}
+%bg-orangeTogray-D-c { 
+    background: orange;     
+    background: -webkit-linear-gradient( orange , gray);
+    background: -o-linear-gradient( orange , gray); 
+    background: -moz-linear-gradient( orange , gray);
+    background: linear-gradient( orange , gray);
+}
+%bg-orangeTopink-D-c { 
+    background: orange;     
+    background: -webkit-linear-gradient( orange , pink);
+    background: -o-linear-gradient( orange , pink); 
+    background: -moz-linear-gradient( orange , pink);
+    background: linear-gradient( orange , pink);
+}
+%bg-orangeTobrown-D-c { 
+    background: orange;     
+    background: -webkit-linear-gradient( orange , brown);
+    background: -o-linear-gradient( orange , brown); 
+    background: -moz-linear-gradient( orange , brown);
+    background: linear-gradient( orange , brown);
+}
+%bg-orangeTopurple-D-c { 
+    background: orange;     
+    background: -webkit-linear-gradient( orange , purple);
+    background: -o-linear-gradient( orange , purple); 
+    background: -moz-linear-gradient( orange , purple);
+    background: linear-gradient( orange , purple);
+}
+
+
+
+
+%bg-pinkTowhite-D-c { 
+    background: pink;     
+    background: -webkit-linear-gradient( pink , white);
+    background: -o-linear-gradient( pink , white); 
+    background: -moz-linear-gradient( pink , white);
+    background: linear-gradient( pink , white);
+}
+%bg-pinkToblack-D-c { 
+    background: pink;     
+    background: -webkit-linear-gradient( pink , black);
+    background: -o-linear-gradient( pink , black); 
+    background: -moz-linear-gradient( pink , black);
+    background: linear-gradient( pink , black);
+}
+%bg-pinkToblue-D-c { 
+    background: pink;     
+    background: -webkit-linear-gradient( pink , blue);
+    background: -o-linear-gradient( pink , blue); 
+    background: -moz-linear-gradient( pink , blue);
+    background: linear-gradient( pink , blue);
+}
+%bg-pinkTored-D-c { 
+    background: pink;     
+    background: -webkit-linear-gradient( pink , red);
+    background: -o-linear-gradient( pink , red); 
+    background: -moz-linear-gradient( pink , red);
+    background: linear-gradient( pink , red);
+}
+%bg-pinkTogreen-D-c { 
+    background: pink;     
+    background: -webkit-linear-gradient( pink , green);
+    background: -o-linear-gradient( pink , green); 
+    background: -moz-linear-gradient( pink , green);
+    background: linear-gradient( pink , green);
+}
+%bg-pinkToyellow-D-c { 
+    background: pink;     
+    background: -webkit-linear-gradient( pink , yellow);
+    background: -o-linear-gradient( pink , yellow); 
+    background: -moz-linear-gradient( pink , yellow);
+    background: linear-gradient( pink , yellow);
+}
+%bg-pinkTogray-D-c { 
+    background: pink;     
+    background: -webkit-linear-gradient( pink , gray);
+    background: -o-linear-gradient( pink , gray); 
+    background: -moz-linear-gradient( pink , gray);
+    background: linear-gradient( pink , gray);
+}
+%bg-pinkToorange-D-c { 
+    background: pink;     
+    background: -webkit-linear-gradient( pink , orange);
+    background: -o-linear-gradient( pink , orange); 
+    background: -moz-linear-gradient( pink , orange);
+    background: linear-gradient( pink , orange);
+}
+%bg-pinkTobrown-D-c { 
+    background: pink;     
+    background: -webkit-linear-gradient( pink , brown);
+    background: -o-linear-gradient( pink , brown); 
+    background: -moz-linear-gradient( pink , brown);
+    background: linear-gradient( pink , brown);
+}
+%bg-pinkTopurple-D-c { 
+    background: pink;     
+    background: -webkit-linear-gradient( pink , purple);
+    background: -o-linear-gradient( pink , purple); 
+    background: -moz-linear-gradient( pink , purple);
+    background: linear-gradient( pink , purple);
+}
+
+
+
+
+
+
+%bg-brownTowhite-D-c { 
+    background: brown;     
+    background: -webkit-linear-gradient( brown , white);
+    background: -o-linear-gradient( brown , white); 
+    background: -moz-linear-gradient( brown , white);
+    background: linear-gradient( brown , white);
+}
+%bg-brownToblack-D-c { 
+    background: brown;     
+    background: -webkit-linear-gradient( brown , black);
+    background: -o-linear-gradient( brown , black); 
+    background: -moz-linear-gradient( brown , black);
+    background: linear-gradient( brown , black);
+}
+%bg-brownToblue-D-c { 
+    background: brown;     
+    background: -webkit-linear-gradient( brown , blue);
+    background: -o-linear-gradient( brown , blue); 
+    background: -moz-linear-gradient( brown , blue);
+    background: linear-gradient( brown , blue);
+}
+%bg-brownTored-D-c { 
+    background: brown;     
+    background: -webkit-linear-gradient( brown , red);
+    background: -o-linear-gradient( brown , red); 
+    background: -moz-linear-gradient( brown , red);
+    background: linear-gradient( brown , red);
+}
+%bg-brownTogreen-D-c { 
+    background: brown;     
+    background: -webkit-linear-gradient( brown , green);
+    background: -o-linear-gradient( brown , green); 
+    background: -moz-linear-gradient( brown , green);
+    background: linear-gradient( brown , green);
+}
+%bg-brownToyellow-D-c { 
+    background: brown;     
+    background: -webkit-linear-gradient( brown , yellow);
+    background: -o-linear-gradient( brown , yellow); 
+    background: -moz-linear-gradient( brown , yellow);
+    background: linear-gradient( brown , yellow);
+}
+%bg-brownTogray-D-c { 
+    background: brown;     
+    background: -webkit-linear-gradient( brown , gray);
+    background: -o-linear-gradient( brown , gray); 
+    background: -moz-linear-gradient( brown , gray);
+    background: linear-gradient( brown , gray);
+}
+%bg-brownToorange-D-c { 
+    background: brown;     
+    background: -webkit-linear-gradient( brown , orange);
+    background: -o-linear-gradient( brown , orange); 
+    background: -moz-linear-gradient( brown , orange);
+    background: linear-gradient( brown , orange);
+}
+%bg-brownTopink-D-c { 
+    background: brown;     
+    background: -webkit-linear-gradient( brown , pink);
+    background: -o-linear-gradient( brown , pink); 
+    background: -moz-linear-gradient( brown , pink);
+    background: linear-gradient( brown , pink);
+}
+%bg-brownTopurple-D-c { 
+    background: brown;     
+    background: -webkit-linear-gradient( brown , purple);
+    background: -o-linear-gradient( brown , purple); 
+    background: -moz-linear-gradient( brown , purple);
+    background: linear-gradient( brown , purple);
+}
+
+
+
+
+%bg-purpleTowhite-D-c { 
+    background: purple;     
+    background: -webkit-linear-gradient( purple , white);
+    background: -o-linear-gradient( purple , white); 
+    background: -moz-linear-gradient( purple , white);
+    background: linear-gradient( purple , white);
+}
+%bg-purpleToblack-D-c { 
+    background: purple;     
+    background: -webkit-linear-gradient( purple , black);
+    background: -o-linear-gradient( purple , black); 
+    background: -moz-linear-gradient( purple , black);
+    background: linear-gradient( purple , black);
+}
+%bg-purpleToblue-D-c { 
+    background: purple;     
+    background: -webkit-linear-gradient( purple , blue);
+    background: -o-linear-gradient( purple , blue); 
+    background: -moz-linear-gradient( purple , blue);
+    background: linear-gradient( purple , blue);
+}
+%bg-purpleTored-D-c { 
+    background: purple;     
+    background: -webkit-linear-gradient( purple , red);
+    background: -o-linear-gradient( purple , red); 
+    background: -moz-linear-gradient( purple , red);
+    background: linear-gradient( purple , red);
+}
+%bg-purpleTogreen-D-c { 
+    background: purple;     
+    background: -webkit-linear-gradient( purple , green);
+    background: -o-linear-gradient( purple , green); 
+    background: -moz-linear-gradient( purple , green);
+    background: linear-gradient( purple , green);
+}
+%bg-purpleToyellow-D-c { 
+    background: purple;     
+    background: -webkit-linear-gradient( purple , yellow);
+    background: -o-linear-gradient( purple , yellow); 
+    background: -moz-linear-gradient( purple , yellow);
+    background: linear-gradient( purple , yellow);
+}
+%bg-purpleTogray-D-c { 
+    background: purple;     
+    background: -webkit-linear-gradient( purple , gray);
+    background: -o-linear-gradient( purple , gray); 
+    background: -moz-linear-gradient( purple , gray);
+    background: linear-gradient( purple , gray);
+}
+%bg-purpleToorange-D-c { 
+    background: purple;     
+    background: -webkit-linear-gradient( purple , orange);
+    background: -o-linear-gradient( purple , orange); 
+    background: -moz-linear-gradient( purple , orange);
+    background: linear-gradient( purple , orange);
+}
+%bg-purpleTopink-D-c { 
+    background: purple;     
+    background: -webkit-linear-gradient( purple , pink);
+    background: -o-linear-gradient( purple , pink); 
+    background: -moz-linear-gradient( purple , pink);
+    background: linear-gradient( purple , pink);
+}
+%bg-purpleTobrown-D-c { 
+    background: purple;     
+    background: -webkit-linear-gradient( purple , brown);
+    background: -o-linear-gradient( purple , brown); 
+    background: -moz-linear-gradient( purple , brown);
+    background: linear-gradient( purple , brown);
+}
+/* *************** END OF LINEAR GRADIENT DOWN ********************************* */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  RADIAL GRADIENT*/
+    /*white , black , blue , red , green , yellow , gray , orange , pink , brown , purple */
+
+%bg-rad-whiteToblack-c { 
+    background: white;     
+    background: -webkit-radial-gradient( white , black);
+    background: -o-radial-gradient( white, black); 
+    background: -moz-radial-gradient( white, black);
+    background: radial-gradient( white , black);
+}
+%bg-rad-whiteToblue-c { 
+    background: white;     
+    background: -webkit-radial-gradient( white , blue);
+    background: -o-radial-gradient( white, blue); 
+    background: -moz-radial-gradient( white, blue);
+    background: radial-gradient( white , blue);
+}
+%bg-rad-whiteTored-c { 
+    background: white;     
+    background: -webkit-radial-gradient( white , red);
+    background: -o-radial-gradient( white, red); 
+    background: -moz-radial-gradient( white, red);
+    background: radial-gradient( white , red);
+}
+%bg-rad-whiteTogreen-c { 
+    background: white;     
+    background: -webkit-radial-gradient( white , green);
+    background: -o-radial-gradient( white, green); 
+    background: -moz-radial-gradient( white, green);
+    background: radial-gradient( white , green);
+}
+%bg-rad-whiteToyellow-c { 
+    background: blue;     
+    background: -webkit-radial-gradient( white , yellow);
+    background: -o-radial-gradient( white, yellow); 
+    background: -moz-radial-gradient( white, yellow);
+    background: radial-gradient( white , yellow);
+}
+%bg-rad-whiteTogray-c { 
+    background: white;     
+    background: -webkit-radial-gradient( white , gray);
+    background: -o-radial-gradient( white, gray); 
+    background: -moz-radial-gradient( white, gray);
+    background: radial-gradient( white , gray);
+}
+%bg-rad-whiteToorange-c { 
+    background: white;     
+    background: -webkit-radial-gradient( white , orange);
+    background: -o-radial-gradient( white, orange); 
+    background: -moz-radial-gradient( white, orange);
+    background: radial-gradient( white , orange);
+}
+%bg-rad-whiteTopink-c { 
+    background: white;     
+    background: -webkit-radial-gradient( white , pink);
+    background: -o-radial-gradient( white, pink); 
+    background: -moz-radial-gradient( white, pink);
+    background: radial-gradient( white , pink);
+}
+%bg-rad-whiteTobrown-c { 
+    background: white;     
+    background: -webkit-radial-gradient( white , brown);
+    background: -o-radial-gradient( white, brown); 
+    background: -moz-radial-gradient( white, brown);
+    background: radial-gradient( white , brown);
+}
+%bg-rad-whiteTopurple-c { 
+    background: white;     
+    background: -webkit-radial-gradient( white , purple);
+    background: -o-radial-gradient( white, purple); 
+    background: -moz-radial-gradient( white, purple);
+    background: radial-gradient( white , purple);
+}
+
+
+
+
+%bg-rad-blackTowhite-c { 
+    background: black;     
+    background: -webkit-radial-gradient( black , white);
+    background: -o-radial-gradient( black , white); 
+    background: -moz-radial-gradient( black , white);
+    background: radial-gradient( black , white);
+}
+%bg-rad-blackToblue-c { 
+    background: black;     
+    background: -webkit-radial-gradient( black , blue);
+    background: -o-radial-gradient( black , blue); 
+    background: -moz-radial-gradient( black , blue);
+    background: radial-gradient( black , blue);
+}
+%bg-rad-blackTored-c { 
+    background: black;     
+    background: -webkit-radial-gradient( black , red);
+    background: -o-radial-gradient( black , red); 
+    background: -moz-radial-gradient( black , red);
+    background: radial-gradient( black , red);
+}
+%bg-rad-blackTogreen-c { 
+    background: black;     
+    background: -webkit-radial-gradient( black , green);
+    background: -o-radial-gradient( black , green); 
+    background: -moz-radial-gradient( black , green);
+    background: radial-gradient( black , green);
+}
+%bg-rad-blackToyellow-c { 
+    background: black;     
+    background: -webkit-radial-gradient( black , yellow);
+    background: -o-radial-gradient( black , yellow); 
+    background: -moz-radial-gradient( black , yellow);
+    background: radial-gradient( black , yellow);
+}
+%bg-rad-blackTogray-c { 
+    background: black;     
+    background: -webkit-radial-gradient( black , gray);
+    background: -o-radial-gradient( black , gray); 
+    background: -moz-radial-gradient( black , gray);
+    background: radial-gradient( black , gray);
+}
+%bg-rad-blackToorange-c { 
+    background: black;     
+    background: -webkit-radial-gradient( black , orange);
+    background: -o-radial-gradient( black , orange); 
+    background: -moz-radial-gradient( black , orange);
+    background: radial-gradient( black , orange);
+}
+%bg-rad-blackTopink-c { 
+    background: black;     
+    background: -webkit-radial-gradient( black , pink);
+    background: -o-radial-gradient( black , pink); 
+    background: -moz-radial-gradient( black , pink);
+    background: radial-gradient( black , pink);
+}
+%bg-rad-blackTobrown-c { 
+    background: black;     
+    background: -webkit-radial-gradient( black , brown);
+    background: -o-radial-gradient( black , brown); 
+    background: -moz-radial-gradient( black , brown);
+    background: radial-gradient( black , brown);
+}
+%bg-rad-blackTopurple-c { 
+    background: black;     
+    background: -webkit-radial-gradient( black , purple);
+    background: -o-radial-gradient( black , purple); 
+    background: -moz-radial-gradient( black , purple);
+    background: radial-gradient( black , purple);
+}
+
+
+
+
+
+%bg-rad-blueTowhite-c { 
+    background: blue;     
+    background: -webkit-radial-gradient( blue , white);
+    background: -o-radial-gradient( blue , white); 
+    background: -moz-radial-gradient( blue , white);
+    background: radial-gradient( blue , white);
+}
+%bg-rad-blueToblack-c { 
+    background: blue;     
+    background: -webkit-radial-gradient( blue , black);
+    background: -o-radial-gradient( blue , black); 
+    background: -moz-radial-gradient( blue , black);
+    background: radial-gradient( blue , black);
+}
+
+%bg-rad-blueTored-c { 
+    background: blue;     
+    background: -webkit-radial-gradient( blue , red);
+    background: -o-radial-gradient( blue , red); 
+    background: -moz-radial-gradient( blue , red);
+    background: radial-gradient( blue , red);
+}
+%bg-rad-blueTogreen-c { 
+    background: blue;     
+    background: -webkit-radial-gradient( blue , green);
+    background: -o-radial-gradient( blue , green); 
+    background: -moz-radial-gradient( blue , green);
+    background: radial-gradient( blue , green);
+}
+%bg-rad-blueToyellow-c { 
+    background: blue;     
+    background: -webkit-radial-gradient( blue , yellow);
+    background: -o-radial-gradient( blue , yellow); 
+    background: -moz-radial-gradient( blue , yellow);
+    background: radial-gradient( blue , yellow);
+}
+%bg-rad-blueTogray-c { 
+    background: blue;     
+    background: -webkit-radial-gradient( blue , gray);
+    background: -o-radial-gradient( blue , gray); 
+    background: -moz-radial-gradient( blue , gray);
+    background: radial-gradient( blue , gray);
+}
+%bg-rad-blueToorange-c { 
+    background: blue;     
+    background: -webkit-radial-gradient( blue , orange);
+    background: -o-radial-gradient( blue , orange); 
+    background: -moz-radial-gradient( blue , orange);
+    background: radial-gradient( blue , orange);
+}
+%bg-rad-blueTopink-c { 
+    background: blue;     
+    background: -webkit-radial-gradient( blue , pink);
+    background: -o-radial-gradient( blue , pink); 
+    background: -moz-radial-gradient( blue , pink);
+    background: radial-gradient( blue , pink);
+}
+%bg-rad-blueTobrown-c { 
+    background: blue;     
+    background: -webkit-radial-gradient( blue , brown);
+    background: -o-radial-gradient( blue , brown); 
+    background: -moz-radial-gradient( blue , brown);
+    background: radial-gradient( blue , brown);
+}
+%bg-rad-blueTopurple-c { 
+    background: blue;     
+    background: -webkit-radial-gradient( blue , purple);
+    background: -o-radial-gradient( blue , purple); 
+    background: -moz-radial-gradient( blue , purple);
+    background: radial-gradient( blue , purple);
+}
+
+
+
+
+%bg-rad-redTowhite-c { 
+    background: red;     
+    background: -webkit-radial-gradient( red  , white);
+    background: -o-radial-gradient( red , white); 
+    background: -moz-radial-gradient( red, white);
+    background: radial-gradient( red , white);
+}
+%bg-rad-redToblack-c { 
+    background: red;     
+    background: -webkit-radial-gradient( red  , black);
+    background: -o-radial-gradient( red , black); 
+    background: -moz-radial-gradient( red, black);
+    background: radial-gradient( red , black);
+}
+%bg-rad-redToblue-c { 
+    background: red;     
+    background: -webkit-radial-gradient( red  , blue);
+    background: -o-radial-gradient( red , blue); 
+    background: -moz-radial-gradient( red, blue);
+    background: radial-gradient( red , blue);
+}
+%bg-rad-redTogreen-c { 
+    background: red;     
+    background: -webkit-radial-gradient( red  , green);
+    background: -o-radial-gradient( red , green); 
+    background: -moz-radial-gradient( red, green);
+    background: radial-gradient( red , green);
+}
+%bg-rad-redToyellow-c { 
+    background: red;     
+    background: -webkit-radial-gradient( red  , yellow);
+    background: -o-radial-gradient( red , yellow); 
+    background: -moz-radial-gradient( red, yellow);
+    background: radial-gradient( red , yellow);
+}
+%bg-rad-redTogray-c { 
+    background: red;     
+    background: -webkit-radial-gradient( red  , gray);
+    background: -o-radial-gradient( red , gray); 
+    background: -moz-radial-gradient( red, gray);
+    background: radial-gradient( red , gray);
+}
+%bg-rad-redToorange-c { 
+    background: red;     
+    background: -webkit-radial-gradient( red  , orange);
+    background: -o-radial-gradient( red , orange); 
+    background: -moz-radial-gradient( red, orange);
+    background: radial-gradient( red , orange);
+}
+%bg-rad-redTopink-c { 
+    background: red;     
+    background: -webkit-radial-gradient( red  , pink);
+    background: -o-radial-gradient( red , pink); 
+    background: -moz-radial-gradient( red, pink);
+    background: radial-gradient( red , pink);
+}
+%bg-rad-redTobrown-c { 
+    background: red;     
+    background: -webkit-radial-gradient( red  , brown);
+    background: -o-radial-gradient( red , brown); 
+    background: -moz-radial-gradient( red, brown);
+    background: radial-gradient( red , brown);
+}
+%bg-rad-redTopurple-c { 
+    background: red;     
+    background: -webkit-radial-gradient( red  , purple);
+    background: -o-radial-gradient( red , purple); 
+    background: -moz-radial-gradient( red, purple);
+    background: radial-gradient( red , purple);
+}
+
+
+
+
+
+%bg-rad-greenTowhite-c { 
+    background: green;     
+    background: -webkit-radial-gradient( green , white);
+    background: -o-radial-gradient( green , white); 
+    background: -moz-radial-gradient( green , white);
+    background: radial-gradient( green , white);
+}
+%bg-rad-greenToblack-c { 
+    background: green;     
+    background: -webkit-radial-gradient( green , black);
+    background: -o-radial-gradient( green , black); 
+    background: -moz-radial-gradient( green , black);
+    background: radial-gradient( green , black);
+}
+%bg-rad-greenToblue-c { 
+    background: green;     
+    background: -webkit-radial-gradient( green , blue);
+    background: -o-radial-gradient( green , blue); 
+    background: -moz-radial-gradient( green , blue);
+    background: radial-gradient( green , blue);
+}
+%bg-rad-greenTored-c { 
+    background: green;     
+    background: -webkit-radial-gradient( green , red);
+    background: -o-radial-gradient( green , red); 
+    background: -moz-radial-gradient( green , red);
+    background: radial-gradient( green , red);
+}
+%bg-rad-greenToyellow-c { 
+    background: green;     
+    background: -webkit-radial-gradient( green , yellow);
+    background: -o-radial-gradient( green ,yellow ); 
+    background: -moz-radial-gradient( green , yellow);
+    background: radial-gradient( green , yellow);
+}
+%bg-rad-greenTogray-c { 
+    background: green;     
+    background: -webkit-radial-gradient( green , gray);
+    background: -o-radial-gradient( green , gray); 
+    background: -moz-radial-gradient( green , gray);
+    background: radial-gradient( green , gray);
+}
+%bg-rad-greenToorange-c { 
+    background: green;     
+    background: -webkit-radial-gradient( green , orange);
+    background: -o-radial-gradient( green ,orange); 
+    background: -moz-radial-gradient( green , orange);
+    background: radial-gradient( green , orange);
+}
+%bg-rad-greenTopink-c { 
+    background: green;     
+    background: -webkit-radial-gradient( green , pink);
+    background: -o-radial-gradient( green , pink); 
+    background: -moz-radial-gradient( green , pink);
+    background: radial-gradient( green , pink);
+}
+%bg-rad-greenTobrown-c { 
+    background: green;     
+    background: -webkit-radial-gradient( green , brown);
+    background: -o-radial-gradient( green , brown); 
+    background: -moz-radial-gradient( green , brown);
+    background: radial-gradient( green , brown);
+}
+%bg-rad-greenTopurple-c { 
+    background: green;     
+    background: -webkit-radial-gradient( green , purple);
+    background: -o-radial-gradient( green , purple); 
+    background: -moz-radial-gradient( green , purple);
+    background: radial-gradient( green , purple);
+}
+
+
+
+
+%bg-rad-yellowTowhite-c { 
+    background: yellow;     
+    background: -webkit-radial-gradient( yellow , white);
+    background: -o-radial-gradient( yellow , white); 
+    background: -moz-radial-gradient( yellow , white);
+    background: radial-gradient( yellow , white);
+}
+%bg-rad-yellowToblack-c { 
+    background: yellow;     
+    background: -webkit-radial-gradient( yellow , black);
+    background: -o-radial-gradient( yellow , black); 
+    background: -moz-radial-gradient( yellow , black);
+    background: radial-gradient( yellow , black);
+}
+%bg-rad-yellowToblue-c { 
+    background: yellow;     
+    background: -webkit-radial-gradient( yellow , blue);
+    background: -o-radial-gradient( yellow , blue); 
+    background: -moz-radial-gradient( yellow , blue);
+    background: radial-gradient( yellow , blue);
+}
+%bg-rad-yellowTored-c { 
+    background: yellow;     
+    background: -webkit-radial-gradient( yellow , red);
+    background: -o-radial-gradient( yellow , red); 
+    background: -moz-radial-gradient( yellow , red);
+    background: radial-gradient( yellow , red);
+}
+%bg-rad-yellowTogreen-c { 
+    background: yellow;     
+    background: -webkit-radial-gradient( yellow , green);
+    background: -o-radial-gradient( yellow , green); 
+    background: -moz-radial-gradient( yellow , green);
+    background: radial-gradient( yellow , green);
+}
+%bg-rad-yellowTogray-c { 
+    background: yellow;     
+    background: -webkit-radial-gradient( yellow , gray);
+    background: -o-radial-gradient( yellow , gray); 
+    background: -moz-radial-gradient( yellow , gray);
+    background: radial-gradient( yellow , gray);
+}
+%bg-rad-yellowToorange-c { 
+    background: yellow;     
+    background: -webkit-radial-gradient( yellow , orange);
+    background: -o-radial-gradient( yellow , orange); 
+    background: -moz-radial-gradient( yellow , orange);
+    background: radial-gradient( yellow , orange);
+}
+%bg-rad-yellowTopink-c { 
+    background: yellow;     
+    background: -webkit-radial-gradient( yellow , pink);
+    background: -o-radial-gradient( yellow , pink); 
+    background: -moz-radial-gradient( yellow , pink);
+    background: radial-gradient( yellow , pink);
+}
+%bg-rad-yellowTobrown-c { 
+    background: yellow;     
+    background: -webkit-radial-gradient( yellow , brown);
+    background: -o-radial-gradient( yellow , brown); 
+    background: -moz-radial-gradient( yellow , brown);
+    background: radial-gradient( yellow , brown);
+}
+%bg-rad-yellowTopurple-c { 
+    background: yellow;     
+    background: -webkit-radial-gradient( yellow , purple);
+    background: -o-radial-gradient( yellow , purple); 
+    background: -moz-radial-gradient( yellow , purple);
+    background: radial-gradient( yellow , purple);
+}
+
+
+
+
+
+%bg-rad-grayTowhite-c { 
+    background: gray;     
+    background: -webkit-radial-gradient( gray , white);
+    background: -o-radial-gradient( gray , white); 
+    background: -moz-radial-gradient( gray , white);
+    background: radial-gradient( gray , white);
+}
+%bg-rad-grayToblack-c { 
+    background: gray;     
+    background: -webkit-radial-gradient( gray , black);
+    background: -o-radial-gradient( gray , black); 
+    background: -moz-radial-gradient( gray , black);
+    background: radial-gradient( gray , black);
+}
+%bg-rad-grayToblue-c { 
+    background: gray;     
+    background: -webkit-radial-gradient( gray , blue);
+    background: -o-radial-gradient( gray , blue); 
+    background: -moz-radial-gradient( gray , blue);
+    background: radial-gradient( gray , blue);
+}
+%bg-rad-grayTored-c { 
+    background: gray;     
+    background: -webkit-radial-gradient( gray , red);
+    background: -o-radial-gradient( gray , red); 
+    background: -moz-radial-gradient( gray , red);
+    background: radial-gradient( gray , red);
+}
+%bg-rad-grayTogreen-c { 
+    background: gray;     
+    background: -webkit-radial-gradient( gray , green);
+    background: -o-radial-gradient( gray , green); 
+    background: -moz-radial-gradient( gray , green);
+    background: radial-gradient( gray , green);
+}
+%bg-rad-grayToyellow-c { 
+    background: gray;     
+    background: -webkit-radial-gradient( gray , yellow);
+    background: -o-radial-gradient( gray , yellow); 
+    background: -moz-radial-gradient( gray , yellow);
+    background: radial-gradient( gray , yellow);
+}
+%bg-rad-grayToorange-c { 
+    background: gray;     
+    background: -webkit-radial-gradient( gray , orange);
+    background: -o-radial-gradient( gray , orange); 
+    background: -moz-radial-gradient( gray , orange);
+    background: radial-gradient( gray , orange);
+}
+%bg-rad-grayTopink-c { 
+    background: gray;     
+    background: -webkit-radial-gradient( gray , pink);
+    background: -o-radial-gradient( gray , pink); 
+    background: -moz-radial-gradient( gray , pink);
+    background: radial-gradient( gray , pink);
+}
+%bg-rad-grayTobrown-c { 
+    background: gray;     
+    background: -webkit-radial-gradient( gray , brown);
+    background: -o-radial-gradient( gray , brown); 
+    background: -moz-radial-gradient( gray , brown);
+    background: radial-gradient( gray , brown);
+}
+%bg-rad-grayTopurple-c { 
+    background: gray;     
+    background: -webkit-radial-gradient( gray , purple);
+    background: -o-radial-gradient( gray , purple); 
+    background: -moz-radial-gradient( gray , purple);
+    background: radial-gradient( gray , purple);
+}
+
+
+
+
+
+%bg-rad-orangeTowhite-c { 
+    background: orange;     
+    background: -webkit-radial-gradient( orange , white);
+    background: -o-radial-gradient( orange , white); 
+    background: -moz-radial-gradient( orange , white);
+    background: radial-gradient( orange , white);
+}
+%bg-rad-orangeToblack-c { 
+    background: orange;     
+    background: -webkit-radial-gradient( orange , black);
+    background: -o-radial-gradient( orange , black); 
+    background: -moz-radial-gradient( orange , black);
+    background: radial-gradient( orange , black);
+}
+%bg-rad-orangeToblue-c { 
+    background: orange;     
+    background: -webkit-radial-gradient( orange , blue);
+    background: -o-radial-gradient( orange , blue); 
+    background: -moz-radial-gradient( orange , blue);
+    background: radial-gradient( orange , blue);
+}
+%bg-rad-orangeTored-c { 
+    background: orange;     
+    background: -webkit-radial-gradient( orange , red);
+    background: -o-radial-gradient( orange , red); 
+    background: -moz-radial-gradient( orange , red);
+    background: radial-gradient( orange , red);
+}
+%bg-rad-orangeTogreen-c { 
+    background: orange;     
+    background: -webkit-radial-gradient( orange , green);
+    background: -o-radial-gradient( orange , green); 
+    background: -moz-radial-gradient( orange , green);
+    background: radial-gradient( orange , green);
+}
+%bg-rad-orangeToyellow-c { 
+    background: orange;     
+    background: -webkit-radial-gradient( orange , yellow);
+    background: -o-radial-gradient( orange , yellow); 
+    background: -moz-radial-gradient( orange , yellow);
+    background: radial-gradient( orange , yellow);
+}
+%bg-rad-orangeTogray-c { 
+    background: orange;     
+    background: -webkit-radial-gradient( orange , gray);
+    background: -o-radial-gradient( orange , gray); 
+    background: -moz-radial-gradient( orange , gray);
+    background: radial-gradient( orange , gray);
+}
+%bg-rad-orangeTopink-c { 
+    background: orange;     
+    background: -webkit-radial-gradient( orange , pink);
+    background: -o-radial-gradient( orange , pink); 
+    background: -moz-radial-gradient( orange , pink);
+    background: radial-gradient( orange , pink);
+}
+%bg-rad-orangeTobrown-c { 
+    background: orange;     
+    background: -webkit-radial-gradient( orange , brown);
+    background: -o-radial-gradient( orange , brown); 
+    background: -moz-radial-gradient( orange , brown);
+    background: radial-gradient( orange , brown);
+}
+%bg-rad-orangeTopurple-c { 
+    background: orange;     
+    background: -webkit-radial-gradient( orange , purple);
+    background: -o-radial-gradient( orange , purple); 
+    background: -moz-radial-gradient( orange , purple);
+    background: radial-gradient( orange , purple);
+}
+
+
+
+
+%bg-rad-pinkTowhite-c { 
+    background: pink;     
+    background: -webkit-radial-gradient( pink , white);
+    background: -o-radial-gradient( pink , white); 
+    background: -moz-radial-gradient( pink , white);
+    background: radial-gradient( pink , white);
+}
+%bg-rad-pinkToblack-c { 
+    background: pink;     
+    background: -webkit-radial-gradient( pink , black);
+    background: -o-radial-gradient( pink , black); 
+    background: -moz-radial-gradient( pink , black);
+    background: radial-gradient( pink , black);
+}
+%bg-rad-pinkToblue-c { 
+    background: pink;     
+    background: -webkit-radial-gradient( pink , blue);
+    background: -o-radial-gradient( pink , blue); 
+    background: -moz-radial-gradient( pink , blue);
+    background: radial-gradient( pink , blue);
+}
+%bg-rad-pinkTored-c { 
+    background: pink;     
+    background: -webkit-radial-gradient( pink , red);
+    background: -o-radial-gradient( pink , red); 
+    background: -moz-radial-gradient( pink , red);
+    background: radial-gradient( pink , red);
+}
+%bg-rad-pinkTogreen-c { 
+    background: pink;     
+    background: -webkit-radial-gradient( pink , green);
+    background: -o-radial-gradient( pink , green); 
+    background: -moz-radial-gradient( pink , green);
+    background: radial-gradient( pink , green);
+}
+%bg-rad-pinkToyellow-c { 
+    background: pink;     
+    background: -webkit-radial-gradient( pink , yellow);
+    background: -o-radial-gradient( pink , yellow); 
+    background: -moz-radial-gradient( pink , yellow);
+    background: radial-gradient( pink , yellow);
+}
+%bg-rad-pinkTogray-c { 
+    background: pink;     
+    background: -webkit-radial-gradient( pink , gray);
+    background: -o-radial-gradient( pink , gray); 
+    background: -moz-radial-gradient( pink , gray);
+    background: radial-gradient( pink , gray);
+}
+%bg-rad-pinkToorange-c { 
+    background: pink;     
+    background: -webkit-radial-gradient( pink , orange);
+    background: -o-radial-gradient( pink , orange); 
+    background: -moz-radial-gradient( pink , orange);
+    background: radial-gradient( pink , orange);
+}
+%bg-rad-pinkTobrown-c { 
+    background: pink;     
+    background: -webkit-radial-gradient( pink , brown);
+    background: -o-radial-gradient( pink , brown); 
+    background: -moz-radial-gradient( pink , brown);
+    background: radial-gradient( pink , brown);
+}
+%bg-rad-pinkTopurple-c { 
+    background: pink;     
+    background: -webkit-radial-gradient( pink , purple);
+    background: -o-radial-gradient( pink , purple); 
+    background: -moz-radial-gradient( pink , purple);
+    background: radial-gradient( pink , purple);
+}
+
+
+
+
+
+
+%bg-rad-brownTowhite-c { 
+    background: brown;     
+    background: -webkit-radial-gradient( brown , white);
+    background: -o-radial-gradient( brown , white); 
+    background: -moz-radial-gradient( brown , white);
+    background: radial-gradient( brown , white);
+}
+%bg-rad-brownToblack-c { 
+    background: brown;     
+    background: -webkit-radial-gradient( brown , black);
+    background: -o-radial-gradient( brown , black); 
+    background: -moz-radial-gradient( brown , black);
+    background: radial-gradient( brown , black);
+}
+%bg-rad-brownToblue-c { 
+    background: brown;     
+    background: -webkit-radial-gradient( brown , blue);
+    background: -o-radial-gradient( brown , blue); 
+    background: -moz-radial-gradient( brown , blue);
+    background: radial-gradient( brown , blue);
+}
+%bg-rad-brownTored-c { 
+    background: brown;     
+    background: -webkit-radial-gradient( brown , red);
+    background: -o-radial-gradient( brown , red); 
+    background: -moz-radial-gradient( brown , red);
+    background: radial-gradient( brown , red);
+}
+%bg-rad-brownTogreen-c { 
+    background: brown;     
+    background: -webkit-radial-gradient( brown , green);
+    background: -o-radial-gradient( brown , green); 
+    background: -moz-radial-gradient( brown , green);
+    background: radial-gradient( brown , green);
+}
+%bg-rad-brownToyellow-c { 
+    background: brown;     
+    background: -webkit-radial-gradient( brown , yellow);
+    background: -o-radial-gradient( brown , yellow); 
+    background: -moz-radial-gradient( brown , yellow);
+    background: radial-gradient( brown , yellow);
+}
+%bg-rad-brownTogray-c { 
+    background: brown;     
+    background: -webkit-radial-gradient( brown , gray);
+    background: -o-radial-gradient( brown , gray); 
+    background: -moz-radial-gradient( brown , gray);
+    background: radial-gradient( brown , gray);
+}
+%bg-rad-brownToorange-c { 
+    background: brown;     
+    background: -webkit-radial-gradient( brown , orange);
+    background: -o-radial-gradient( brown , orange); 
+    background: -moz-radial-gradient( brown , orange);
+    background: radial-gradient( brown , orange);
+}
+%bg-rad-brownTopink-c { 
+    background: brown;     
+    background: -webkit-radial-gradient( brown , pink);
+    background: -o-radial-gradient( brown , pink); 
+    background: -moz-radial-gradient( brown , pink);
+    background: radial-gradient( brown , pink);
+}
+%bg-rad-brownTopurple-c { 
+    background: brown;     
+    background: -webkit-radial-gradient( brown , purple);
+    background: -o-radial-gradient( brown , purple); 
+    background: -moz-radial-gradient( brown , purple);
+    background: radial-gradient( brown , purple);
+}
+
+
+
+
+%bg-rad-purpleTowhite-c { 
+    background: purple;     
+    background: -webkit-radial-gradient( purple , white);
+    background: -o-radial-gradient( purple , white); 
+    background: -moz-radial-gradient( purple , white);
+    background: radial-gradient( purple , white);
+}
+%bg-rad-purpleToblack-c { 
+    background: purple;     
+    background: -webkit-radial-gradient( purple , black);
+    background: -o-radial-gradient( purple , black); 
+    background: -moz-radial-gradient( purple , black);
+    background: radial-gradient( purple , black);
+}
+%bg-rad-purpleToblue-c { 
+    background: purple;     
+    background: -webkit-radial-gradient( purple , blue);
+    background: -o-radial-gradient( purple , blue); 
+    background: -moz-radial-gradient( purple , blue);
+    background: radial-gradient( purple , blue);
+}
+%bg-rad-purpleTored-c { 
+    background: purple;     
+    background: -webkit-radial-gradient( purple , red);
+    background: -o-radial-gradient( purple , red); 
+    background: -moz-radial-gradient( purple , red);
+    background: radial-gradient( purple , red);
+}
+%bg-rad-purpleTogreen-c { 
+    background: purple;     
+    background: -webkit-radial-gradient( purple , green);
+    background: -o-radial-gradient( purple , green); 
+    background: -moz-radial-gradient( purple , green);
+    background: radial-gradient( purple , green);
+}
+%bg-rad-purpleToyellow-c { 
+    background: purple;     
+    background: -webkit-radial-gradient( purple , yellow);
+    background: -o-radial-gradient( purple , yellow); 
+    background: -moz-radial-gradient( purple , yellow);
+    background: radial-gradient( purple , yellow);
+}
+%bg-rad-purpleTogray-c { 
+    background: purple;     
+    background: -webkit-radial-gradient( purple , gray);
+    background: -o-radial-gradient( purple , gray); 
+    background: -moz-radial-gradient( purple , gray);
+    background: radial-gradient( purple , gray);
+}
+%bg-rad-purpleToorange-c { 
+    background: purple;     
+    background: -webkit-radial-gradient( purple , orange);
+    background: -o-radial-gradient( purple , orange); 
+    background: -moz-radial-gradient( purple , orange);
+    background: radial-gradient( purple , orange);
+}
+%bg-rad-purpleTopink-c { 
+    background: purple;     
+    background: -webkit-radial-gradient( purple , pink);
+    background: -o-radial-gradient( purple , pink); 
+    background: -moz-radial-gradient( purple , pink);
+    background: radial-gradient( purple , pink);
+}
+%bg-rad-purpleTobrown-c { 
+    background: purple;     
+    background: -webkit-radial-gradient( purple , brown);
+    background: -o-radial-gradient( purple , brown); 
+    background: -moz-radial-gradient( purple , brown);
+    background: radial-gradient( purple , brown);
+}
+/* *************** END OF RADIAL GRADIENT ********************************* */
+

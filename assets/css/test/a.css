@@ -1,0 +1,261 @@
+/* SIMPLE BG  */
+/*  LINEAR GRADIENT  TO RIGHT*/
+/*white , black , blue , red , green , yellow , gray , orange , pink , brown , purple */
+/* *************** END OF LINEAR GRADIENT RIGHT ********************************* */
+/*  LINEAR GRADIENT  TO DOWN*/
+/*white , black , blue , red , green , yellow , gray , orange , pink , brown , purple */
+/* *************** END OF LINEAR GRADIENT DOWN ********************************* */
+/*  RADIAL GRADIENT*/
+/*white , black , blue , red , green , yellow , gray , orange , pink , brown , purple */
+/* *************** END OF RADIAL GRADIENT ********************************* */
+/*   
+    white , black , blue , red , green , yellow , gray , orange , pink , brown , purple 
+
+    left right top bottom  
+    
+    dotted  dashed  solid  double  groove  ridge  inset  outset  none  hidden 
+    
+    thin medium thick 1px 2px 3px 4px 4px 6px 7px 8px 9px 10px 12px 14px 16px 18px 20px 24px 28px 32px 36px    
+
+    %bor-TYPE-WIDTH-white  { border: TYPE WIDTH white  }
+    %bor-TYPE-WIDTH-black  { border: TYPE WIDTH black  }
+    %bor-TYPE-WIDTH-blue   { border: TYPE WIDTH blue  }
+    %bor-TYPE-WIDTH-red    { border: TYPE WIDTH red  }
+    %bor-TYPE-WIDTH-green  { border: TYPE WIDTH green  }
+    %bor-TYPE-WIDTH-yellow { border: TYPE WIDTH yellow  }
+    %bor-TYPE-WIDTH-gray   { border: TYPE WIDTH gray  }
+    %bor-TYPE-WIDTH-orange { border: TYPE WIDTH orange  }
+    %bor-TYPE-WIDTH-pink   { border: TYPE WIDTH pink  }
+    %bor-TYPE-WIDTH-brown  { border: TYPE WIDTH brown  }
+    %bor-TYPE-WIDTH-purple { border: TYPE WIDTH purple  }
+*/
+/* *************** END OF  ********************************* */
+/* DOTTED  */
+/* DASHED  */
+/* SOLID  */
+/* DOUBLE  */
+/* GROOVE  */
+/* RIDGE  */
+/* INSET  */
+/* OUTSET  */
+/* LEFT DOTTED  */
+/* LEFT DASHED  */
+/* LEFT SOLID  */
+/* LEFT DOUBLE  */
+/* LEFT GROOVE  */
+/* LEFT RIDGE  */
+/* LEFT INSET  */
+/* LEFT OUTSET  */
+/* RIGHT DOTTED  */
+/* RIGHT DASHED  */
+/* RIGHT SOLID  */
+/* RIGHT DOUBLE  */
+/* RIGHT GROOVE  */
+/* RIGHT RIDGE  */
+/* RIGHT INSET  */
+/* RIGHT OUTSET  */
+/* TOP DOTTED  */
+/* TOP DASHED  */
+/* TOP SOLID  */
+/* TOP DOUBLE  */
+/* TOP GROOVE  */
+/* TOP RIDGE  */
+/* TOP INSET  */
+/* TOP OUTSET  */
+/* BOTTOM DOTTED  */
+/* BOTTOM DASHED  */
+/* BOTTOM SOLID  */
+/* BOTTOM DOUBLE  */
+/* BOTTOM GROOVE  */
+/* BOTTOM RIDGE  */
+/* BOTTOM INSET  */
+/* BOTTOM OUTSET  */
+/* ALIGNMENT */
+/* CURSOR */
+/* DISPLAY */
+/* FLEX */
+/*[class*="btn-wh"]:hover {background-color:red}*/
+/* COLOR  */
+/* TEXT COLOR */
+/*@mixin box-shadow($args...) {
+  -webkit-box-shadow: $args;
+  -moz-box-shadow: $args;
+  box-shadow: $args;
+}*/
+/*@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+  @if $inset != "" {
+    -webkit-box-shadow:$top $left $blur $color $inset;
+    -moz-box-shadow:$top $left $blur $color $inset;
+    box-shadow:$top $left $blur $color $inset;
+  }
+}*/
+/*@mixin box-shadow($top, $left, $blur, $color, $inset:null) {
+  -webkit-box-shadow: $top $left $blur $color $inset;
+  -moz-box-shadow:    $top $left $blur $color $inset;
+  box-shadow:         $top $left $blur $color $inset;
+}*/
+/*@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+  -webkit-box-shadow: $top $left $blur $color unquote($inset);
+  -moz-box-shadow: $top $left $blur $color unquote($inset);
+  box-shadow: $top $left $blur $color unquote($inset);
+}*/
+/*@mixin button( $bgcolor:blue ){
+    background:$bgcolor;
+}*/
+/*  SIZING HEIGHT IN PERCENTAGE  */
+/* SIZING IN PX FOR HEIGHT */
+/* SIZING IN PX FOR AUTO HEIGHT CHANGES*/
+@media only screen and (min-height: 1000px) {
+  m1-sm-c {
+    margin: 1.0px; }
+
+  m1-sm-c {
+    padding: 1.0px; } }
+@media only screen and (min-height: 800px) and (max-height: 1000px) {
+  m1-sm-c {
+    margin: 0.9px; }
+
+  m1-sm-c {
+    padding: 0.9px; } }
+@media only screen and (min-height: 600px) and (max-height: 800px) {
+  m1-sm-c {
+    margin: 0.8px; }
+
+  m1-sm-c {
+    padding: 0.8px; } }
+@media only screen and (min-height: 400px) and (max-height: 600px) {
+  m1-sm-c {
+    margin: 0.8px; }
+
+  m1-sm-c {
+    padding: 0.8px; } }
+@media only screen and (min-height: 0px) and (max-height: 400px) {
+  m1-sm-c {
+    margin: 0.7px; }
+
+  m1-sm-c {
+    padding: 0.7px; } }
+/*  SIZING HEIGHT IN PERCENTAGE  */
+/* SIZING IN PX FOR HEIGHT EK */
+/* SIZING IN PX FOR AUTO HEIGHT CHANGES*/
+/* **************************************************** END OF SIZING IN AUTO ******************************************************************************************* */
+/*  SIZING ALL OR WIDTH IN PERCENTAGE  */
+/* SIZING IN PX FOR WIDTH  */
+/* SIZING IN PX FOR WIDTH CHANGES (LG  change of width downto 992px,then only one change immediately after 992px)*/
+/* **************************************************** END OF SIZING IN LG ******************************************************************************************* */
+/* SIZING IN PX FOR WIDTH CHANGES (MD change of width downto 768px,then only one change immediately after 768px)*/
+/* **************************************************** END OF SIZING IN MD ******************************************************************************************* */
+/* SIZING IN PX FOR WIDTH CHANGES (SM change of width downto 576px,then only one change immediately after 576px)*/
+/* **************************************************** END OF SIZING IN SM ******************************************************************************************* */
+/*  SIZING ALL OR WIDTH IN PERCENTAGE  */
+/* SIZING IN PX FOR WIDTH EK */
+/* SIZING IN PX FOR WIDTH CHANGES (LG  change of width downto 992px,then only one change immediately after 992px)*/
+/* **************************************************** END OF SIZING IN LG ******************************************************************************************* */
+/* SIZING IN PX FOR WIDTH CHANGES (MD change of width downto 768px,then only one change immediately after 768px)*/
+/* **************************************************** END OF SIZING IN MD ******************************************************************************************* */
+/* SIZING IN PX FOR WIDTH CHANGES (SM change of width downto 576px,then only one change immediately after 576px)*/
+/* **************************************************** END OF SIZING IN SM ******************************************************************************************* */
+/*@mixin box-shadow($args...) {
+  -webkit-box-shadow: $args;
+  -moz-box-shadow: $args;
+  box-shadow: $args;
+}*/
+/*@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+  @if $inset != "" {
+    -webkit-box-shadow:$top $left $blur $color $inset;
+    -moz-box-shadow:$top $left $blur $color $inset;
+    box-shadow:$top $left $blur $color $inset;
+  }
+}*/
+/*@mixin box-shadow($top, $left, $blur, $color, $inset:null) {
+  -webkit-box-shadow: $top $left $blur $color $inset;
+  -moz-box-shadow:    $top $left $blur $color $inset;
+  box-shadow:         $top $left $blur $color $inset;
+}*/
+/*@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+  -webkit-box-shadow: $top $left $blur $color unquote($inset);
+  -moz-box-shadow: $top $left $blur $color unquote($inset);
+  box-shadow: $top $left $blur $color unquote($inset);
+}*/
+/*@mixin button( $bgcolor:blue ){
+    background:$bgcolor;
+}*/
+/*$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$teal:    #20c997 !default;
+
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+  (
+    "blue":       $blue,
+    "indigo":     $indigo,
+    "purple":     $purple,
+    "pink":       $pink,
+    "red":        $red,
+    "orange":     $orange,
+    "yellow":     $yellow,
+    "green":      $green,
+    "teal":       $teal,
+    "cyan":       $cyan,
+    "white":      $white,
+    "gray":       $gray-600,
+    "gray-dark":  $gray-800
+  ),
+  $colors
+);
+
+$primary:       $blue !default;
+$secondary:     $gray-600 !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;*/
+/*@mixin mixin-bg-linear-toRight($maincolor,$leftcolor, $rightcolor) {
+    background: $maincolor;     
+    background: -webkit-linear-gradient(left, $leftcolor , $rightcolor);
+    background: -o-linear-gradient(right, $leftcolor, $rightcolor); 
+    background: -moz-linear-gradient(right, $leftcolor, $rightcolor);
+    background: linear-gradient(to right, $leftcolor , $rightcolor);
+}*/
+/*%bg-primary-app { 
+    background: $btn_primary_color;     
+    background: -webkit-linear-gradient(left, $btn_primary_shadow_color , $btn_primary_color);
+    background: -o-linear-gradient(right, $btn_primary_shadow_color, $btn_primary_color); 
+    background: -moz-linear-gradient(right, $btn_primary_shadow_color, $btn_primary_color);
+    background: linear-gradient(to right, $btn_primary_shadow_color , $btn_primary_color);
+}
+%bg-primary-app-hover { 
+    background: #4d94ff;     
+    background: -webkit-linear-gradient(left, $btn_primary_color , $btn_primary_shadow_color);
+    background: -o-linear-gradient(right, $btn_primary_color, $btn_primary_shadow_color); 
+    background: -moz-linear-gradient(right, $btn_primary_color, $btn_primary_shadow_color);
+    background: linear-gradient(to right, $btn_primary_color , $btn_primary_shadow_color);
+}
+%bg-success-app { 
+    background: $btn_success_color;     
+    background: -webkit-linear-gradient(left, $btn_success_shadow_color , $btn_success_color);
+    background: -o-linear-gradient(right, $btn_success_shadow_color, $btn_success_color); 
+    background: -moz-linear-gradient(right, $btn_success_shadow_color, $btn_success_color);
+    background: linear-gradient(to right, $btn_success_shadow_color , $btn_success_color);
+}
+%bg-success-app-hover { 
+    background: $btn_success_color;     
+    background: -webkit-linear-gradient(left, $btn_success_color , $btn_success_shadow_color);
+    background: -o-linear-gradient(right, $btn_success_color, $btn_success_shadow_color); 
+    background: -moz-linear-gradient(right, $btn_success_color, $btn_success_shadow_color);
+    background: linear-gradient(to right, $btn_success_color , $btn_success_shadow_color);
+}
+*/
+.bg-gray1-app {
+  background: #f8fcf8; }
+
+.bg-gray1-contrast1-app {
+  background: #f8fcf8; }
+
+/*# sourceMappingURL=a.css.map */
